@@ -13,4 +13,4 @@ This portfolio gives an image of who I am and what development skills I have. It
 About Me, Work, Contact Me
 
 ## Link
-https://benthere6.github.io/Portfolio/
+https://benthere6.github.io/portfolio/
