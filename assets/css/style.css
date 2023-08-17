@@ -78,14 +78,22 @@ nav ul li a {
     display:flex;
 }
 
+#about-me-section, #work-section {
+    box-sizing:border-box;
+    margin:10px;
+    margin-right:0;
+    padding:10px;
+    border: 1px black solid;
+    border-radius: 5px;
+}
+
 #about-me-section {
     width:30%;
     background-color:var(--blueish);
-    box-sizing:border-box;
 }
 
 #work-section {
+    margin-right:10px;
     background-color:rgb(248, 231, 231);
-    box-sizing:border-box;
     width:70%;
 }
