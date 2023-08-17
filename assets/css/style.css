@@ -134,9 +134,9 @@ h3{
     height:300px;
 }
 
-#work .info #first-box img {
+#work .info #first-box img,
+#work .info .project img {
     display:block;
-    height:400px;
     width:100%;
     position:absolute;
     top:0;
@@ -145,16 +145,14 @@ h3{
     box-sizing: border-box;
 }
 
+#work .info #first-box img {
+    height:400px;
+}
+
 #work .info .project img {
-    display:block;
     height:200px;
-    width:100%;
-    position:absolute;
-    top:0;
-    left:0;
-    object-fit: cover;
-    box-sizing: border-box;
     filter:saturate(40%) blur(1px);
+    filter: brightness(70%) sepia(10%) hue-rotate(190deg) blur(2px);
 }
 
 .project {
@@ -195,11 +193,7 @@ h3{
 }
 
 /* Format project images when hovered over */
-#work .info .project:hover img {
-    filter:grayscale(0);
-    border:aquamarine 2px solid;
-}
-
+#work .info .project:hover img,
 #work .info #first-box:hover img {
     filter:grayscale(0);
     border:aquamarine 2px solid;
