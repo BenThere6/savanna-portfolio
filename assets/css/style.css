@@ -42,7 +42,7 @@ ul li {
     text-decoration: none;
 }
 
-ul li a {
+li a {
     text-decoration: none;
     color:black;
     font-size:23px;
@@ -151,7 +151,6 @@ h3{
 
 #work .info .project img {
     height:200px;
-    filter:saturate(40%) blur(1px);
     filter: brightness(70%) sepia(10%) hue-rotate(190deg) blur(2px);
 }
 
@@ -195,8 +194,7 @@ h3{
 /* Format project images when hovered over */
 #work .info .project:hover img,
 #work .info #first-box:hover img {
-    filter:grayscale(0);
-    border:aquamarine 2px solid;
+    filter:none;
 }
 
 /* Changes layout for smart devices accessing this website */
