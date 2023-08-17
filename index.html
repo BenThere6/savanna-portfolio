@@ -7,92 +7,94 @@
 </head>
 <body>
     <header>
-        <img src="./assets/images/cover-image.jpg" alt="Background Cover Photo">
+        <img id = 'cover-photo' src="./assets/images/cover-image.jpg" alt="Background Cover Photo">
         <div id="name">Ben Birdsall</div>
         <nav>
             <ul>
-                <li class="underline"><a href="#about-me">About Me</a></li>
-                <li class="underline"><a href="#work">Work</a></li>
-                <li class="underline"><a href="#contact-me">Contact Me</a></li>
+                <li><a href="#about-me-section">About Me</a></li>
+                <li><a href="#work-section">Work</a></li>
+                <li><a href="#contact-me-section">Contact Me</a></li>
             </ul>
         </nav>
     </header>
-    <aside id="about-me-section">
-        <div class="section-title">About Me</div>
-        <img id='headshot' src="./assets/images/100_0029.jpeg" alt="Photo of Ben Birdsall">
-        <div id="about-me-paragraph">
-            I began my studies at Brigham Young University-Idaho pursuing a Bachelor's Degree in Software Engineering. 
-            I moved down to Utah and was unable to complete the degree online, so I changed course and got my 
-            Associate's Degree in General Studies. While completing that degree I continued to work on personal projects 
-            that drove my desire and passion of coding. I built a couple in-terminal games, an auto homework-scheduler, 
-            and the most complex program I built was an auto budgeter, featured below. Since then, I have received my certification in 
-            Full Stack Web Development from Rutger's Online Coding Bootcamp, where I worked on multiple personal challenges 
-            and group projects. 
-        </div>
-    </aside>
-    <section id="work-section">
-        <div class="section-title">Work</div>
-        <div class-="project-card">
-            <a href="https://benthere6.github.io/priority-web-app/" target="_blank" class="project" id="first-box">project placeholder</a>
-            <img src="./assets/images/name_list_screenshot.png"alt="Priority App Screenshot">
-            <section class="project-title-card">
-                <div class="main-info">
-                    <div>Priority App</div>
-                    <div>CSS, JavaScript</div>
-                </div>
-                <div class="project-type">Independant Personal Project</div>
-                <div class="project-repo"></div>
-            </section>
-        </div>
-        <div class-="project-card">
-            <a href="https://briellebroadt.github.io/Witty-Web-Wizard/" target="_blank" class="project">project placeholder</a>
-            <img src="./assets/images/screenshot_7-2.png"alt="Witty Web Wizard Screenshot">
-            <section class="project-title-card">
-                <div class="main-info">
-                    <div>Witty Web Wizard</div>
-                    <div>APIs, CSS, JavaScript</div>
-                </div>
-                <div class="project-type">Group Project</div>
-                <div class="project-repo"></div>
-            </section>
-        </div>
-        <div class-="project-card">
-            <a href="https://benthere6.github.io/weather_dashboard/" target="_blank" class="project">project placeholder</a>
-            <img src="./assets/images/weather-dashboard-screenshot.png"alt="Weather Dashboard Screenshot">
-            <section class="project-title-card">
-                <div class="main-info">
-                    <div>Weather Dashboard</div>
-                    <div>API, Local Storage</div>
-                </div>
-                <div class="project-type">School Assignment</div>
-                <div class="project-repo"></div>
-            </section>
-        </div>
-        <div class-="project-card">
-            <a href="https://benthere6.github.io/code-quiz/" target="_blank" class="project">project placeholder</a>
-            <img src="./assets/images/screenshot_6.png"alt="Generic Coding Project">
-            <section class="project-title-card">
-                <div class="main-info">
-                    <div>Quiz App</div>
-                    <div>JavaScript, HTML, CSS</div>
-                </div>
-                <div class="project-type">School Assignment</div>
-                <div class="project-repo"></div>
-            </section>
-        </div>
-        <div class-="project-card">
-            <a href="https://github.com/BenThere6/budgeter" target="_blank" class="project">project placeholder</a>
-            <img src="./assets/images/How-To-Make-A-Budget.jpg"alt="Auto Budget Image">
-            <section class="project-title-card">
-                <div class="main-info">
-                    <div>Auto Budgeter</div>
-                    <div>Python</div>
-                </div>
-                <div class="project-type">School Assignment</div>
-            </section>
-        </div>
+    <section id="whole-content">
+        <aside id="about-me-section">
+            <div class="section-title">About Me</div>
+            <img id='headshot' src="./assets/images/100_0029.jpeg" alt="Photo of Ben Birdsall">
+            <div id="about-me-paragraph">
+                I began my studies at Brigham Young University-Idaho pursuing a Bachelor's Degree in Software Engineering. 
+                I moved down to Utah and was unable to complete the degree online, so I changed course and got my 
+                Associate's Degree in General Studies. While completing that degree I continued to work on personal projects 
+                that drove my desire and passion of coding. I built a couple in-terminal games, an auto homework-scheduler, 
+                and the most complex program I built was an auto budgeter, featured below. Since then, I have received my certification in 
+                Full Stack Web Development from Rutger's Online Coding Bootcamp, where I worked on multiple personal challenges 
+                and group projects. 
+            </div>
+        </aside>
+        <section id="work-section">
+            <div class="section-title">Work</div>
+            <div class-="project-card">
+                <a href="https://benthere6.github.io/priority-web-app/" target="_blank" class="project" id="first-box">project placeholder</a>
+                <img src="./assets/images/name_list_screenshot.png"alt="Priority App Screenshot">
+                <section class="project-title-card">
+                    <div class="main-info">
+                        <div>Priority App</div>
+                        <div>CSS, JavaScript</div>
+                    </div>
+                    <div class="project-type">Independant Personal Project</div>
+                    <div class="project-repo"></div>
+                </section>
+            </div>
+            <div class-="project-card">
+                <a href="https://briellebroadt.github.io/Witty-Web-Wizard/" target="_blank" class="project">project placeholder</a>
+                <img src="./assets/images/screenshot_7-2.png"alt="Witty Web Wizard Screenshot">
+                <section class="project-title-card">
+                    <div class="main-info">
+                        <div>Witty Web Wizard</div>
+                        <div>APIs, CSS, JavaScript</div>
+                    </div>
+                    <div class="project-type">Group Project</div>
+                    <div class="project-repo"></div>
+                </section>
+            </div>
+            <div class-="project-card">
+                <a href="https://benthere6.github.io/weather_dashboard/" target="_blank" class="project">project placeholder</a>
+                <img src="./assets/images/weather-dashboard-screenshot.png"alt="Weather Dashboard Screenshot">
+                <section class="project-title-card">
+                    <div class="main-info">
+                        <div>Weather Dashboard</div>
+                        <div>API, Local Storage</div>
+                    </div>
+                    <div class="project-type">School Assignment</div>
+                    <div class="project-repo"></div>
+                </section>
+            </div>
+            <div class-="project-card">
+                <a href="https://benthere6.github.io/code-quiz/" target="_blank" class="project">project placeholder</a>
+                <img src="./assets/images/screenshot_6.png"alt="Generic Coding Project">
+                <section class="project-title-card">
+                    <div class="main-info">
+                        <div>Quiz App</div>
+                        <div>JavaScript, HTML, CSS</div>
+                    </div>
+                    <div class="project-type">School Assignment</div>
+                    <div class="project-repo"></div>
+                </section>
+            </div>
+            <div class-="project-card">
+                <a href="https://github.com/BenThere6/budgeter" target="_blank" class="project">project placeholder</a>
+                <img src="./assets/images/How-To-Make-A-Budget.jpg"alt="Auto Budget Image">
+                <section class="project-title-card">
+                    <div class="main-info">
+                        <div>Auto Budgeter</div>
+                        <div>Python</div>
+                    </div>
+                    <div class="project-type">School Assignment</div>
+                </section>
+            </div>
+        </section>
     </section>
-    <footer>
+    <footer id="contact-me-section">
         <ul id="contact-info">
             <li>(385)566-3025</li>
             <li><a href="mailto:benjaminbirdsall@icloud.com?subject=Portfolio Inquiry&body=Hello, I'm reaching out regarding your portfolio.">benjaminbirdsall@icloud.com@icloud.com</a></li>
