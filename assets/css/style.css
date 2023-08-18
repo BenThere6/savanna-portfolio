@@ -3,9 +3,15 @@ img {
 }
 
 :root {
-    --light-red:rgb(177, 68, 59);
-    --blueish:rgb(77,170,163);
-    --light-pink:rgb(234, 199, 199);
+    --color-1:#1a625b;
+    --color-1:white;
+    --color-2:#d54d4d;
+    --color-2:white;
+    /* add opacity .93 back to color-3 */
+    --color-3: #2ab5a7;
+    --color-3:white;
+    --color-4: #03A696;
+    --color-4:white;
 }
 
 html, body, header, img, nav, ul, footer {
@@ -22,9 +28,9 @@ html, body, header, img, nav, ul, footer {
     text-indent: 30;
 }
 
-body, footer {
-    background-color: var(--light-red);
-}
+/* body {
+    background-color: white;
+} */
 
 li, a {
     list-style: none;
@@ -32,7 +38,11 @@ li, a {
 }
 
 header {
-    position:relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom:45vh;
 }
 
 #cover-photo {
@@ -42,30 +52,19 @@ header {
     border-bottom: black 1px solid;
 }
 
-#name, nav ul {
-    background-color: lightgray;
-    opacity:.85;
-    padding:10px;
-    border-radius: 6px;
-    border:black 1px solid;
-}
-
 #name {
-    position:absolute;
-    top:75px;
-    left:10%;
-    font-size: 45px;
+    font-family:'Bebas Neue';
+    font-size: 60px;
+    text-align: center;
+    margin-top:40vh;
+    margin-bottom:20px;
+
 }
 
 nav ul {
     display:flex;
     font-size: 22px;
-}
-
-nav {
-    position:absolute;
-    top:10px;
-    right:10px;
+    font-family: 'Kanit';
 }
 
 nav ul li {
@@ -76,7 +75,8 @@ nav ul li {
 }
 
 nav ul li:hover {
-    background-color: rgb(157, 155, 155);
+    text-decoration: underline;
+
 }
 
 nav ul li a {
@@ -99,19 +99,20 @@ nav ul li a {
     box-sizing:border-box;
     margin:10px;
     margin-right:0;
-    padding:25px;
     border: 1px black solid;
     border-radius: 5px;
 }
 
 #about-me-section {
+    padding:12px;
     width:25%;
-    background-color:var(--blueish);
+    background-color:var(--color-2);
 }
 
 #work-section {
     margin-right:10px;
-    background-color: var(--light-pink);
+    padding:20px;
+    background-color: var(--color-4);
     width:75%;
 }
 
@@ -121,8 +122,9 @@ nav ul li a {
     display:flex;
     align-items: center;
     justify-content: center;
+    border:1px black solid;
     border-radius: 50%;
-    background-color: var(--blueish);
+    background-color: var(--color-2);
     overflow: hidden;
     margin-bottom:30px;
 }
@@ -136,4 +138,50 @@ nav ul li a {
     text-indent: 30px;
     line-height: 1.3;
     font-size: 18px;
+}
+
+#projects {
+    display:flex;
+    flex-wrap: wrap;
+}
+
+.project-card {
+    position: relative;
+    width:46%;
+    margin:2%;
+}
+
+#first-project {
+    width:100%;
+}
+
+#first-project .project-image {
+    height: 400px;
+}
+
+.project-image {
+    width:100%;
+    height: 250px;
+    border: black 1px solid;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.project-title-card {
+    background-color: var(--color-3);
+    fill-opacity: .8;
+    font-size: 14px;
+    width: 70px;
+    height: calc(100% - 50px);
+    padding:10px;
+    position: absolute;
+    bottom:15px;
+    left:3px;
+    border:black 1px solid;
+    border-radius: 5px;
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
 }

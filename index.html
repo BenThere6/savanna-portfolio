@@ -3,11 +3,14 @@
 <head>
     <meta charset="UTF-8" />
     <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Kanit&display=swap">
     <title>Ben Birdsall Portfolio</title>
 </head>
 <body>
+    
     <header>
-        <img id = 'cover-photo' src="./assets/images/cover-image.jpg" alt="Background Cover Photo">
+        <!-- <img id = 'cover-photo' src="./assets/images/cover-image.jpg" alt="Background Cover Photo"> -->
         <div id="name">Ben Birdsall</div>
         <nav>
             <ul>
@@ -17,6 +20,7 @@
             </ul>
         </nav>
     </header>
+    
     <section id="whole-content">
         <aside id="about-me-section">
             <div class="section-title">About Me</div>
@@ -34,7 +38,7 @@
                 <div class="indent">
                     While completing that degree I continued to work on personal projects 
                     that drove my desire and passion of coding. I built a couple in-terminal games, an auto homework-scheduler, 
-                    and the most complex program I built was an auto budgeter, featured below. 
+                    and the most complex program I built was an auto budgeter, featured here. 
                 </div>
                 <div class="indent">
                     Since then, I have received my certification in 
@@ -45,64 +49,61 @@
         </aside>
         <section id="work-section">
             <div class="section-title">Work</div>
-            <div class-="project-card">
-                <a href="https://benthere6.github.io/priority-web-app/" target="_blank" class="project" id="first-box"></a>
-                <img src="./assets/images/name_list_screenshot.png"alt="Priority App Screenshot">
-                <section class="project-title-card">
-                    <div class="main-info">
+            <div id="projects">
+                <div class="project-card" id="first-project">
+                    <a href="https://benthere6.github.io/priority-web-app/" target="_blank" class="project">
+                        <img class='project-image' src="./assets/images/name_list_screenshot.png"alt="Priority App Screenshot">
+                    </a>
+                    <section class="project-title-card">
                         <div>Priority App</div>
                         <div>CSS, JavaScript</div>
-                    </div>
-                    <div class="project-type">Independant Personal Project</div>
-                    <div class="project-repo"></div>
-                </section>
-            </div>
-            <div class-="project-card">
-                <a href="https://briellebroadt.github.io/Witty-Web-Wizard/" target="_blank" class="project"></a>
-                <img src="./assets/images/screenshot_7-2.png"alt="Witty Web Wizard Screenshot">
-                <section class="project-title-card">
-                    <div class="main-info">
+                        <div class="project-type">Independant Personal Project</div>
+                        <div class="project-repo">Repo</div>
+                    </section>
+                </div>
+                <div class="project-card">
+                    <a href="https://briellebroadt.github.io/Witty-Web-Wizard/" target="_blank" class="project">
+                        <img class='project-image' src="./assets/images/screenshot_7-2.png"alt="Witty Web Wizard Screenshot">
+                    </a>
+                    <section class="project-title-card">
                         <div>Witty Web Wizard</div>
                         <div>APIs, CSS, JavaScript</div>
-                    </div>
-                    <div class="project-type">Group Project</div>
-                    <div class="project-repo"></div>
-                </section>
-            </div>
-            <div class-="project-card">
-                <a href="https://benthere6.github.io/weather_dashboard/" target="_blank" class="project"></a>
-                <img src="./assets/images/weather-dashboard-screenshot.png"alt="Weather Dashboard Screenshot">
-                <section class="project-title-card">
-                    <div class="main-info">
+                        <div class="project-type">Group Project</div>
+                        <div class="project-repo">Repo</div>
+                    </section>
+                </div>
+                <div class="project-card">
+                    <a href="https://benthere6.github.io/weather_dashboard/" target="_blank" class="project">
+                        <img class='project-image' src="./assets/images/weather-dashboard-screenshot.png"alt="Weather Dashboard Screenshot">
+                    </a>
+                    <section class="project-title-card">
                         <div>Weather Dashboard</div>
                         <div>API, Local Storage</div>
-                    </div>
-                    <div class="project-type">School Assignment</div>
-                    <div class="project-repo"></div>
-                </section>
-            </div>
-            <div class-="project-card">
-                <a href="https://benthere6.github.io/code-quiz/" target="_blank" class="project"></a>
-                <img src="./assets/images/screenshot_6.png"alt="Generic Coding Project">
-                <section class="project-title-card">
-                    <div class="main-info">
+                        <div class="project-type">School Assignment</div>
+                        <div class="project-repo">Repo</div>
+                    </section>
+                </div>
+                <div class="project-card">
+                    <a href="https://benthere6.github.io/code-quiz/" target="_blank" class="project">
+                        <img class='project-image' src="./assets/images/screenshot_6.png"alt="Generic Coding Project">
+                    </a>
+                    <section class="project-title-card">
                         <div>Quiz App</div>
                         <div>JavaScript, HTML, CSS</div>
-                    </div>
-                    <div class="project-type">School Assignment</div>
-                    <div class="project-repo"></div>
-                </section>
-            </div>
-            <div class-="project-card">
-                <a href="https://github.com/BenThere6/budgeter" target="_blank" class="project"></a>
-                <img src="./assets/images/How-To-Make-A-Budget.jpg"alt="Auto Budget Image">
-                <section class="project-title-card">
-                    <div class="main-info">
+                        <div class="project-type">School Assignment</div>
+                        <div class="project-repo">Repo</div>
+                    </section>
+                </div>
+                <div class="project-card">
+                    <a href="https://github.com/BenThere6/budgeter" target="_blank" class="project">
+                        <img class='project-image' src="./assets/images/How-To-Make-A-Budget.jpg"alt="Auto Budget Image">
+                    </a>
+                    <section class="project-title-card">
                         <div>Auto Budgeter</div>
                         <div>Python</div>
-                    </div>
-                    <div class="project-type">School Assignment</div>
-                </section>
+                        <div class="project-type">School Assignment</div>
+                    </section>
+                </div>
             </div>
         </section>
     </section>
