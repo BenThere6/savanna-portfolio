@@ -97,7 +97,7 @@ nav ul li a {
 #about-me-section, #work-section {
     box-sizing:border-box;
     margin:10px;
-    border: 1px black solid;
+    /* border: 1px black solid; */
     border-radius: 50px;
     background-color: white;
 }
@@ -106,6 +106,7 @@ nav ul li a {
     align-self: flex-start;
     padding:12px;
     width:80%;
+    position:relative;
 }
 
 #work-section {
@@ -153,6 +154,7 @@ nav ul li a {
     border-radius: 30px;
     width:60%;
     position:relative;
+    background-color: white;
     /* background-image: url('../images/blue-oil-canvas-30.png'); */
 }
 
@@ -160,7 +162,9 @@ nav ul li a {
 #par-two::before,
 #par-three::before,
 #par-four::before,
-#par-five::before {
+#par-five::before,
+#about-me-section::before,
+#work-section::before {
     content: '';
     position: absolute;
     top: 0;
@@ -172,6 +176,11 @@ nav ul li a {
     z-index: 1;
     border-radius: 30px;
     pointer-events: none;
+}
+
+#about-me-section::before,
+#work-section::before {
+    border-radius: 50px;
 }
 
 #par-one {
