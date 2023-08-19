@@ -1,7 +1,4 @@
-img {
-    width:100px;
-}
-
+/* Base styling */
 :root {
     --font-one: 'Bebas Neue';
     --font-two: 'Kanit';
@@ -29,19 +26,13 @@ li, a {
     color:black;
 }
 
+/* Landing screen */
 header {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     margin-bottom:47vh;
-}
-
-#cover-photo {
-    object-fit: cover;
-    height:250px;
-    width:100%;
-    border-bottom: black 1px solid;
 }
 
 #name {
@@ -76,9 +67,12 @@ nav ul li a {
     padding:5px;
 }
 
+/* Between header and footer */
 #whole-content {
     display:flex;
     flex-direction: column;
+    align-items: center;
+    max-width:1440px;
 }
 
 .section-title {
@@ -144,10 +138,10 @@ nav ul li a {
 #par-one, #par-two, #par-three, #par-four, #par-five {
     border:black 1px solid;
     padding: 50px;
-    /* margin-bottom:300px; */
     border-radius: 30px;
     width:60%;
     position:relative;
+    /* background-color: rgba(255, 255, 255, .7); */
 }
 
 #par-one {
