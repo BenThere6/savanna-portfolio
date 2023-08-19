@@ -19,6 +19,7 @@ function resizeAboutMeSection() {
         }
         
     });
-    totalHeight += 650;
+    console.log(totalHeight)
+    totalHeight *= 1.35;
     aboutMeSection.style.height = `${totalHeight}px`;
 }
