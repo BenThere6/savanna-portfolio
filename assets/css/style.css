@@ -5,6 +5,7 @@
     --font-three: 'Lisu Bosa';
     --font-four: 'Gruppo';
     /* --font-five: 'Victor Mono'; */
+    --thru-white: rgba(255, 255, 255, 0.4);
 }
 
 * {
@@ -99,7 +100,7 @@ nav ul li a {
     margin:10px;
     /* border: 1px black solid; */
     border-radius: 50px;
-    background-color: white;
+    background-color: var(--thru-white);
 }
 
 #about-me-section {
@@ -154,7 +155,7 @@ nav ul li a {
     border-radius: 30px;
     width:60%;
     position:relative;
-    background-color: white;
+    background-color: var(--thru-white);
     /* background-image: url('../images/blue-oil-canvas-30.png'); */
 }
 
