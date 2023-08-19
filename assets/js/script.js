@@ -14,11 +14,7 @@ function resizeAboutMeSection() {
     let count = 0;
     pars.forEach((par) => {
         count ++;
-        // console.log(totalHeight)
-        // console.log(par.clientHeight)
-        // console.log(par)
         if (count != 1) {
-            console.log(totalHeight)
             totalHeight += par.clientHeight;
         }
         
