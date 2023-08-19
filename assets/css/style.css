@@ -48,7 +48,6 @@ header {
     text-align: center;
     margin-top:40vh;
     margin-bottom:20px;
-
 }
 
 nav ul {
@@ -206,16 +205,16 @@ nav ul li a {
     font-size: 48px;
 }
 
-/* .project-tools {
-    font-family: var(--font-four);
-}
-
-.project-type {
-    font-family: var(--font-five);
-} */
-
 .item {
     margin-bottom:10px;
 }
 
 /* Footer */
+
+
+/* Media Queries */
+@media screen and (max-width:980px) {
+    #about-me-section, #work-section {
+        width:95%;
+    }
+}
