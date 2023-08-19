@@ -3,6 +3,8 @@
     --font-one: 'Bebas Neue';
     --font-two: 'Kanit';
     --font-three: 'Lisu Bosa';
+    --font-four: 'Gruppo';
+    /* --font-five: 'Victor Mono'; */
 }
 
 * {
@@ -24,6 +26,11 @@
 li, a {
     list-style: none;
     color:black;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
 }
 
 /* Landing screen */
@@ -91,6 +98,7 @@ nav ul li a {
 }
 
 #about-me-section {
+    align-self: flex-start;
     padding:12px;
     width:80%;
 }
@@ -150,14 +158,14 @@ nav ul li a {
 
 #par-two {
     bottom: 50px;
-    left: 56%;
-    width:50%;
+    left: 55.5%;
+    width:48%;
 }
 
 #par-three {
     bottom: 270px;
     right: 40px;
-    width: 66%;
+    width: 63%;
 }
 
 #par-four {
@@ -173,15 +181,38 @@ nav ul li a {
 
 /* Work Section */
 .project-card {
-    width:50vw;
+    width:42%;
     margin:2%;
     border:black 1px solid;
     border-radius: 30px;
+    font-size: 22px;
 }
 
 .project-info {
     padding:20px;
 }
+
+.project-title, .project-repo {
+    text-decoration: none;
+}
+
+.project-title {
+    padding-top:20px;
+    padding-bottom:40px;
+}
+
+.project-title a {
+    font-family: var(--font-four);
+    font-size: 48px;
+}
+
+/* .project-tools {
+    font-family: var(--font-four);
+}
+
+.project-type {
+    font-family: var(--font-five);
+} */
 
 .item {
     margin-bottom:10px;
