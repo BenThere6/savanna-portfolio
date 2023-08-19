@@ -14,10 +14,10 @@
     font-family: var(--font-three);
 }
 
-/* html {
-    background-image: url('../images/blue-oil-canvas.jpg');
-    background-size: cover;
-} */
+html {
+    background-image: url('../images/blue-oil-canvas-30.png');
+    background-size:contain;
+}
 
 .flex-center {
     display:flex;
@@ -99,6 +99,7 @@ nav ul li a {
     margin:10px;
     border: 1px black solid;
     border-radius: 50px;
+    background-color: white;
 }
 
 #about-me-section {
@@ -152,7 +153,7 @@ nav ul li a {
     border-radius: 30px;
     width:60%;
     position:relative;
-    background-image: url('../images/blue-oil-canvas-30.png');
+    /* background-image: url('../images/blue-oil-canvas-30.png'); */
 }
 
 #par-one::before,
