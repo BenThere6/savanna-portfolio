@@ -14,6 +14,11 @@
     font-family: var(--font-three);
 }
 
+/* html {
+    background-image: url('../images/blue-oil-canvas.jpg');
+    background-size: cover;
+} */
+
 .flex-center {
     display:flex;
     justify-content: center;
@@ -143,11 +148,29 @@ nav ul li a {
 }
 
 #par-one, #par-two, #par-three, #par-four, #par-five {
-    border:black 1px solid;
     padding: 50px;
     border-radius: 30px;
     width:60%;
     position:relative;
+    background-image: url('../images/blue-oil-canvas-30.png');
+}
+
+#par-one::before,
+#par-two::before,
+#par-three::before,
+#par-four::before,
+#par-five::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 1px solid black;
+    box-sizing: border-box;
+    z-index: 1;
+    border-radius: 30px;
+    pointer-events: none;
 }
 
 #par-one {
