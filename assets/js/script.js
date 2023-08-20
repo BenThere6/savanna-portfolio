@@ -1,10 +1,10 @@
 document.addEventListener("DOMContentLoaded",function() {
-    resizeAboutMeSection();
+    // resizeAboutMeSection();
     // updateFontSizes();
 })
 
 window.addEventListener("resize",function() {
-    resizeAboutMeSection();
+    // resizeAboutMeSection();
 })
 
 function resizeAboutMeSection() {

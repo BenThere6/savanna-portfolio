@@ -5,7 +5,8 @@
     --font-three: 'Lisu Bosa';
     --font-four: 'Gruppo';
     /* --font-five: 'Victor Mono'; */
-    --thru-white: rgba(255, 255, 255, 0.4);
+    --thru-black: rgba(44, 41, 41, 0.4);
+    --border-color: rgb(176, 175, 175);
 }
 
 * {
@@ -13,10 +14,11 @@
     margin:0;
     box-sizing: border-box;
     font-family: var(--font-three);
+    color:white;
 }
 
 html {
-    background-image: url('../images/blue-oil-canvas-30.png');
+    background-image: url('../images/blue-oil-canvas-dark.png');
     background-size:contain;
 }
 
@@ -31,7 +33,7 @@ html {
 
 li, a {
     list-style: none;
-    color:black;
+    color:white;
     text-decoration: none;
 }
 
@@ -88,7 +90,7 @@ nav ul li a {
 }
 
 .section-title {
-    font-size: 50px;
+    font-size: 60px;
     text-align: center;
     padding-top:40px;
     padding-bottom:60px;
@@ -98,8 +100,9 @@ nav ul li a {
 #about-me-section, #work-section {
     box-sizing:border-box;
     margin:10px;
+    margin-bottom:100px;
     border-radius: 50px;
-    background-color: var(--thru-white);
+    background-color: var(--thru-black);
 }
 
 #about-me-section {
@@ -114,7 +117,7 @@ nav ul li a {
     padding:20px;
     width:75%;
     position: relative;
-    bottom: 50px;
+    /* bottom: 50px; */
 }
 
 /* About Me Section */
@@ -124,7 +127,7 @@ nav ul li a {
     display:flex;
     align-items: center;
     justify-content: center;
-    border:1px black solid;
+    border:1px var(--border-color) solid;
     border-radius: 50%;
     overflow: hidden;
     margin-bottom:60px;
@@ -154,9 +157,10 @@ nav ul li a {
     border-radius: 30px;
     width:60%;
     position:relative;
-    background-color: var(--thru-white);
+    background-color: var(--thru-black);
 }
 
+/* Borders that are always visible */
 #par-one::before,
 #par-two::before,
 #par-three::before,
@@ -170,7 +174,7 @@ nav ul li a {
     left: 0;
     width: 100%;
     height: 100%;
-    border: 1px solid black;
+    border: 1px solid var(--border-color);
     box-sizing: border-box;
     z-index: 1;
     border-radius: 30px;
@@ -188,24 +192,24 @@ nav ul li a {
 }
 
 #par-two {
-    bottom: 50px;
+    /* bottom: 50px; */
     left: 55.5%;
     width:48%;
 }
 
 #par-three {
-    bottom: 270px;
+    /* bottom: 270px; */
     right: 40px;
     width: 63%;
 }
 
 #par-four {
-    bottom: 320px;
+    /* bottom: 320px; */
     left: 30%;
 }
 
 #par-five {
-    bottom: 340px;
+    /* bottom: 340px; */
     left: 15%;
     width:70%;
 }
@@ -213,11 +217,11 @@ nav ul li a {
 /* Work Section */
 .project-card {
     width:42%;
-    margin:2%;
-    border:black 1px solid;
+    /* margin:2%; */
+    border:var(--border-color) 1px solid;
     border-radius: 30px;
-    font-size: 22px;
-    background-color: var(--thru-white);
+    font-size: 30px;
+    background-color: var(--thru-black);
 }
 
 .project-info {
@@ -235,7 +239,7 @@ nav ul li a {
 
 .project-title a {
     font-family: var(--font-four);
-    font-size: 48px;
+    font-size: 60px;
 }
 
 .item {
