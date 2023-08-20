@@ -38,6 +38,7 @@ li, a {
 
 .underline {
     border-bottom:none;
+    border-top:none;
 }
 .underline:hover {
     border-bottom:white 1px solid;
