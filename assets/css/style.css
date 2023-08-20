@@ -36,8 +36,16 @@ li, a {
     text-decoration: none;
 }
 
+.underline {
+    border-bottom:none;
+}
+.underline:hover {
+    border-bottom:white 1px solid;
+    border-radius:5px;
+}
+
 a:hover {
-    text-decoration: underline;
+    /* text-decoration: underline; */
 }
 
 /* Landing screen */
@@ -71,13 +79,14 @@ nav ul li {
 }
 
 nav ul li:hover {
-    text-decoration: underline;
+    /* text-decoration: underline; */
 
 }
 
 nav ul li a {
     text-decoration:none;
     padding:5px;
+    padding-bottom:2px;
 }
 
 /* Between header and footer */
@@ -270,12 +279,24 @@ footer {
     justify-content: space-around;
 }
 
+#contact-info li {
+    padding-bottom:2px;
+}
+
 /* Media Queries */
 @media screen and (max-width:980px) {
     #about-me-section, #work-section {
         width:95%;
     }
-    a, nav ul, .project-info a {
+    /* .project-info a {
         text-decoration: underline;
+    } */
+    /* #contact-info li, nav ul li {
+        border-bottom:white 1px solid;
+        border-radius:5px;
+    } */
+    .underline {
+        border-bottom:white 1px solid;
+        border-radius:5px;
     }
 }
