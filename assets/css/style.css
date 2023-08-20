@@ -4,8 +4,7 @@
     --font-two: 'Kanit';
     --font-three: 'Lisu Bosa';
     --font-four: 'Gruppo';
-    /* --font-five: 'Victor Mono'; */
-    --thru-black: rgba(44, 41, 41, 0.4);
+    --thru-black: rgba(51, 81, 99, 0.4);
     --border-color: rgb(176, 175, 175);
 }
 
@@ -117,7 +116,6 @@ nav ul li a {
     padding:20px;
     width:75%;
     position: relative;
-    /* bottom: 50px; */
 }
 
 /* About Me Section */
@@ -192,36 +190,51 @@ nav ul li a {
 }
 
 #par-two {
-    /* bottom: 50px; */
-    left: 55.5%;
+    left: 45.5%;
     width:48%;
 }
 
 #par-three {
-    /* bottom: 270px; */
-    right: 40px;
     width: 63%;
 }
 
 #par-four {
-    /* bottom: 320px; */
     left: 30%;
 }
 
 #par-five {
-    /* bottom: 340px; */
     left: 15%;
     width:70%;
 }
 
 /* Work Section */
 .project-card {
-    width:42%;
-    /* margin:2%; */
+    width:50%;
     border:var(--border-color) 1px solid;
     border-radius: 30px;
     font-size: 30px;
     background-color: var(--thru-black);
+    position:relative;
+}
+
+#proj-one {
+    left:40%;
+}
+
+#proj-two {
+    left:10%;
+}
+
+#proj-three {
+    left: 25%;
+}
+
+#proj-four {
+    left:40%;
+}
+
+#proj-five {
+    left:15%;
 }
 
 .project-info {
@@ -247,7 +260,6 @@ nav ul li a {
 }
 
 /* Footer */
-
 footer {
     font-size: 22px;
     padding-bottom: 50px;
