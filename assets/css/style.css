@@ -45,10 +45,6 @@ li, a {
     border-radius:5px;
 }
 
-a:hover {
-    /* text-decoration: underline; */
-}
-
 /* Landing screen */
 header {
     display: flex;
@@ -79,10 +75,6 @@ nav ul li {
     padding:2px;
 }
 
-nav ul li:hover {
-    /* text-decoration: underline; */
-
-}
 
 nav ul li a {
     text-decoration:none;
