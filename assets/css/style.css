@@ -101,7 +101,6 @@ nav ul li a {
 #about-me-section, #work-section {
     box-sizing:border-box;
     margin:10px;
-    margin-bottom:100px;
     border-radius: 50px;
     background-color: var(--thru-black);
 }
@@ -111,6 +110,7 @@ nav ul li a {
     padding:20px;
     width:80%;
     position:relative;
+    margin-bottom:50px;
 }
 
 #work-section {
@@ -118,6 +118,7 @@ nav ul li a {
     padding:20px;
     width:75%;
     position: relative;
+    margin-bottom:100px;
 }
 
 /* About Me Section */
@@ -210,8 +211,14 @@ nav ul li a {
 }
 
 /* Work Section */
+#projects {
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
 .project-card {
-    width:50%;
+    width:45%;
     border:var(--border-color) 1px solid;
     border-radius: 30px;
     font-size: 30px;
@@ -220,23 +227,29 @@ nav ul li a {
 }
 
 #proj-one {
-    left:40%;
+    /* left:2%; */
+    transform: rotate(-10deg);
+    top: 0;
+    left:.45%;
 }
 
 #proj-two {
-    left:10%;
+    left:5%;
+    /* top:31px; */
+    /* transform: rotate(16deg); */
 }
 
 #proj-three {
-    left: 25%;
+    left: 30%;
+    width:56%;
 }
 
 #proj-four {
-    left:40%;
+    /* left:40%; */
 }
 
 #proj-five {
-    left:15%;
+    left:10%;
 }
 
 .project-info {
@@ -291,5 +304,14 @@ footer {
     .underline {
         border-bottom:white 1px solid;
         border-radius:5px;
+    }
+    #proj-one {
+        left:.2%;
+    }
+}
+
+@media screen and (max-width:1121px) {
+    #proj-one {
+        left: .6%;
     }
 }
