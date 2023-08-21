@@ -292,25 +292,16 @@ footer {
     #name {
         font-size: 88px;
     }
-    nav ul {
-        font-size:31px;
+    nav ul, #about-me-paragraph, footer {
+        font-size:30px;
     }
     .section-title {
         font-size: 68px;
     }
-    #about-me-paragraph {
-        font-size:30px;
-    }
-    .par-title {
-        font-size: 36px;
-    }
-    .project-card {
+    .par-title, .project-card {
         font-size: 38px;
     }
     .project-title {
         font-size: 64px;
-    }
-    footer {
-        font-size: 30px;
     }
 }
