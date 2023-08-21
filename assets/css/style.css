@@ -227,7 +227,6 @@ nav ul li a {
 }
 
 #proj-one {
-    /* left:2%; */
     transform: rotate(-10deg);
     top: 0;
     left:.45%;
@@ -235,17 +234,11 @@ nav ul li a {
 
 #proj-two {
     left:5%;
-    /* top:31px; */
-    /* transform: rotate(16deg); */
 }
 
 #proj-three {
     left: 30%;
     width:56%;
-}
-
-#proj-four {
-    /* left:40%; */
 }
 
 #proj-five {
@@ -292,15 +285,9 @@ footer {
 /* Media Queries */
 @media screen and (max-width:980px) {
     #about-me-section, #work-section {
-        width:95%;
+        width:100%;
+        align-self: center;
     }
-    /* .project-info a {
-        text-decoration: underline;
-    } */
-    /* #contact-info li, nav ul li {
-        border-bottom:white 1px solid;
-        border-radius:5px;
-    } */
     .underline {
         border-bottom:white 1px solid;
         border-radius:5px;
