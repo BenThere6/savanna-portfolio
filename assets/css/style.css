@@ -146,6 +146,10 @@ nav ul li a {
     flex-direction: column;
 }
 
+.pars {
+    margin-bottom: 15px;
+}
+
 .par-title {
     font-family: var(--font-two);
     font-size: 28px;
@@ -214,35 +218,37 @@ nav ul li a {
 #projects {
     display:flex;
     flex-wrap: wrap;
-    flex-direction: row;
+    justify-content: center;
 }
 
 .project-card {
-    width:45%;
+    width:80%;
     border:var(--border-color) 1px solid;
     border-radius: 30px;
+    margin-bottom:15px;
     font-size: 30px;
     background-color: var(--thru-black);
     position:relative;
+    text-align: center;
 }
 
 #proj-one {
-    transform: rotate(-10deg);
+    /* transform: rotate(-10deg); */
     top: 0;
-    left:.45%;
+    /* left:.45%; */
 }
 
 #proj-two {
-    left:5%;
+    /* left:5%; */
 }
 
 #proj-three {
-    left: 30%;
-    width:56%;
+    /* left: 30%; */
+    /* width:56%; */
 }
 
 #proj-five {
-    left:10%;
+    /* left:10%; */
 }
 
 .project-info {
@@ -259,7 +265,7 @@ nav ul li a {
 }
 
 .project-title a {
-    font-family: var(--font-four);
+    font-family: var(--font-two);
     font-size: 60px;
 }
 
@@ -294,6 +300,30 @@ footer {
     }
     #proj-one {
         left:.2%;
+    }
+    #name {
+        font-size: 88px;
+    }
+    nav ul {
+        font-size:31px;
+    }
+    .section-title {
+        font-size: 68px;
+    }
+    #about-me-paragraph {
+        font-size:30px;
+    }
+    .par-title {
+        font-size: 36px;
+    }
+    .project-card {
+        font-size: 38px;
+    }
+    .project-title {
+        font-size: 64px;
+    }
+    footer {
+        font-size: 30px;
     }
 }
 

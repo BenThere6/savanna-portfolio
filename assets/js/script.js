@@ -7,5 +7,5 @@ function updateChildPosition() {
     childElement.style.top = `${topValue}px`;
 }
 
-updateChildPosition();
-window.addEventListener('resize', updateChildPosition);
+// updateChildPosition();
+// window.addEventListener('resize', updateChildPosition);
