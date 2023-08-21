@@ -144,9 +144,6 @@ nav ul li a {
     font-size: 22px;
     display:flex;
     flex-direction: column;
-}
-
-.pars {
     margin-bottom: 15px;
 }
 
@@ -279,8 +276,18 @@ footer {
         border-bottom:white 1px solid;
         border-radius:5px;
     }
-    #proj-one {
-        left:.2%;
+    #par-one {
+        width:75%;
+    }
+    #par-two {
+        left:35%;
+        width:60%
+    }
+    #par-three {
+        width: 70%;
+    }
+    #par-four {
+        width:65%;
     }
     #name {
         font-size: 88px;
@@ -305,11 +312,5 @@ footer {
     }
     footer {
         font-size: 30px;
-    }
-}
-
-@media screen and (max-width:1121px) {
-    #proj-one {
-        left: .6%;
     }
 }
