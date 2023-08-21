@@ -232,25 +232,6 @@ nav ul li a {
     text-align: center;
 }
 
-#proj-one {
-    /* transform: rotate(-10deg); */
-    top: 0;
-    /* left:.45%; */
-}
-
-#proj-two {
-    /* left:5%; */
-}
-
-#proj-three {
-    /* left: 30%; */
-    /* width:56%; */
-}
-
-#proj-five {
-    /* left:10%; */
-}
-
 .project-info {
     padding:20px;
 }
