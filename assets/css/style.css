@@ -231,6 +231,7 @@ nav ul li a {
 
 .project-info {
     padding:20px;
+    margin-bottom:40px;
 }
 
 .project-title, .project-repo {
