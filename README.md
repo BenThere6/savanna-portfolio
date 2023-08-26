@@ -1,16 +1,26 @@
-# Ben Birdsall Personal Portfolio
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
+# Ben Birdsall Portfolio 
+  
 ## Description
+  
+This portfolio provides a glimpse into my identity and development skills. It features various projects I've worked on and offers contact details for easy connection.
 
-This portfolio gives an image of who I am and what development skills I have. It showcases multiple projects I have worked on in the past, and provides contact information.
+## Table of Contents
 
-## Usage
+* [Contact Information](#contact-information)<br>
+* [License](#license)
 
-![Portfolio Screenshot 2](assets/images/screenshot_2.png)
+## Contact Information
 
-## Features
+For any further inquiries, please feel free to reach out to me through the following channels:
+* GitHub: [My GitHub Profile](https://www.github.com/BenThere6)
+* Email: benjaminbirdsall@icloud.com
 
-About Me, Work, Contact Me
+I am here to assist you with any questions or feedback you may have. Thank you for your interest!
 
-## Link
-https://benthere6.github.io/portfolio/
+## License 
+
+[MIT License](https://opensource.org/licenses/MIT)
+
+The MIT License is a permissive open-source license that allows others to use, modify, and distribute your code for both commercial and non-commercial purposes. It requires that the original license notice and copyright notice are included in any redistributions.
