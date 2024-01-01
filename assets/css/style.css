@@ -154,6 +154,10 @@ nav ul li a {
     text-align: start;
 }
 
+.par-content {
+    font-size: 16px;
+}
+
 #par-one, #par-two, #par-three, #par-four, #par-five {
     padding: 50px;
     border-radius: 30px;
@@ -230,8 +234,9 @@ nav ul li a {
 }
 
 .project-info {
-    padding:20px;
+    /* padding:20px; */
     margin-bottom:40px;
+    width: auto;
 }
 
 .project-title, .project-repo {
@@ -245,11 +250,12 @@ nav ul li a {
 
 .project-title a {
     font-family: var(--font-two);
-    font-size: 60px;
+    font-size: 30px;
 }
 
 .item {
     margin-bottom:10px;
+    font-size: 20px;
 }
 
 /* Footer */
@@ -301,6 +307,9 @@ footer {
     }
     .par-title, .project-card {
         font-size: 38px;
+    }
+    .par-content {
+        font-size: 23px;
     }
     .project-title {
         font-size: 64px;
