@@ -147,18 +147,18 @@ nav ul li a {
     margin-bottom: 15px;
 }
 
-.par-title {
+/* .par-title {
     font-family: var(--font-two);
     font-size: 28px;
     margin-bottom:25px;
     text-align: start;
-}
+} */
 
 .par-content {
     font-size: 16px;
 }
 
-#par-one, #par-two, #par-three, #par-four, #par-five {
+#par-one, #par-two, #par-three, #par-four, #par-five, #par-six {
     padding: 50px;
     border-radius: 30px;
     width:60%;
@@ -172,6 +172,7 @@ nav ul li a {
 #par-three::before,
 #par-four::before,
 #par-five::before,
+#par-six::before,
 #about-me-section::before,
 #work-section::before {
     content: '';
@@ -198,11 +199,12 @@ nav ul li a {
 }
 
 #par-two {
-    left: 45.5%;
+    left: 40.5%;
     width:48%;
 }
 
 #par-three {
+    left: 15%;
     width: 63%;
 }
 
@@ -211,8 +213,13 @@ nav ul li a {
 }
 
 #par-five {
-    left: 15%;
-    width:70%;
+    left: 22%;
+    width:50%;
+}
+
+#par-six {
+    left: 40%;
+    width:50%;
 }
 
 /* Work Section */
@@ -245,7 +252,7 @@ nav ul li a {
 
 .project-title {
     padding-top:20px;
-    padding-bottom:40px;
+    padding-bottom:15px;
 }
 
 .project-title a {
@@ -305,7 +312,7 @@ footer {
     .section-title {
         font-size: 68px;
     }
-    .par-title, .project-card {
+    .project-card {
         font-size: 38px;
     }
     .par-content {
