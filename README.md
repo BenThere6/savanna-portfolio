@@ -1,26 +1,8 @@
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+# React + Vite
 
-# Ben Birdsall Portfolio 
-  
-## Description
-  
-This portfolio provides a glimpse into my identity and development skills. It features various projects I've worked on and offers contact details for easy connection.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-## Table of Contents
+Currently, two official plugins are available:
 
-* [Contact Information](#contact-information)<br>
-* [License](#license)
-
-## Contact Information
-
-For any further inquiries, please feel free to reach out to me through the following channels:
-* GitHub: [My GitHub Profile](https://www.github.com/BenThere6)
-* Email: benjaminbirdsall@icloud.com
-
-I am here to assist you with any questions or feedback you may have. Thank you for your interest!
-
-## License 
-
-[MIT License](https://opensource.org/licenses/MIT)
-
-This code's MIT License allows you to freely use, modify, and share it for any purpose. Please include the original license and copyright notices when sharing.
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
