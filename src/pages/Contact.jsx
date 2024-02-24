@@ -1,16 +1,20 @@
 import React from 'react';
 
-const Contact = () => {
+const ContactPage = () => {
   return (
-    <div className="contact">
-      <h2>Contact Me</h2>
+    <div className="contact-page">
+      <h2>Get in Touch</h2>
       <p>
-        {/* Add your contact information or a contact form here */}
-        You can reach me at my email address: example@example.com.
-        {/* You can also include a contact form component here */}
+        If you have any questions or just want to say hello, feel free to contact me using the form below or by sending an email.
       </p>
+      <form>
+        <input type="text" id="name" name="name" placeholder="Name" />
+        <input type="email" id="email" name="email" placeholder="Email" />
+        <textarea id="message" name="message" placeholder="Message"></textarea>
+        <button type="submit">Send Message</button>
+      </form>
     </div>
   );
 };
 
-export default Contact;
+export default ContactPage;
