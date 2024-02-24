@@ -1,0 +1,12 @@
+:root {
+    --font-one: 'Bebas Neue';
+    --font-two: 'Kanit';
+    --font-three: 'Lisu Bosa';
+    --font-four: 'Gruppo';
+    --thru-black: rgba(51, 81, 99, 0.4);
+    --border-color: rgb(176, 175, 175);
+    
+    background-image: url(../../public/blue-oil-canvas-dark.png);
+    background-size:cover;
+    color: white;
+}
