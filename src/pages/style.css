@@ -5,8 +5,71 @@
     --font-four: 'Gruppo';
     --thru-black: rgba(51, 81, 99, 0.4);
     --border-color: rgb(176, 175, 175);
-    
-    background-image: url(../../public/blue-oil-canvas-dark.png);
-    background-size:cover;
+    --shadow-color: rgb(42, 64, 91);
+
+    background-image: url(../../blue-oil-canvas-dark.png);
+    background-size: cover;
     color: white;
+    color: white;
+    /* text-shadow:
+        -.5px -.5px 0 #000,
+        .5px -.5px 0 #000,
+        -.5px .5px 0 #000,
+        .5px .5px 0 #000; */
+    font: var(--font-two);
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+  }
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+h2 {
+    font-family:var(--font-one);
+    font-size: 80px;
+    text-align: center;
+    margin: 0;
+}
+
+h3 {
+    font-family: var(--font-two);
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 100px;
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    padding: 0;
+}
+
+li{
+    padding-left: 7px;
+    padding-right: 7px;
+}
+
+li:hover {
+    box-shadow: 0px 0px 6px 5px var(--shadow-color);
+    background-color: var(--shadow-color);
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.gray-container {
+    background-color: var(--thru-black);
+    border:var(--border-color) 1px solid;
+    border-radius: 20px;
 }

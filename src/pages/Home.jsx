@@ -4,22 +4,24 @@ import './style.css';
 
 const Home = () => {
   return (
-    <div>
-      <div className="home">
+    <div className='home center'>
+      <div>
         <h2>Ben Birdsall</h2>
         <h3>Full Stack Web Developer</h3>
+        <div className='gray-container'>
+          <ul>
+            <li>
+              <Link to="/about">About</Link>
+            </li>
+            <li>
+              <Link to="/projects">Projects</Link>
+            </li>
+            <li>
+              <Link to="/contact">Contact</Link>
+            </li>
+          </ul>
+        </div>
       </div>
-      <ul>
-        <li>
-          <Link to="/about">About</Link>
-        </li>
-        <li>
-          <Link to="/projects">Projects</Link>
-        </li>
-        <li>
-          <Link to="/contact">Contact</Link>
-        </li>
-      </ul>
     </div>
   );
 };
