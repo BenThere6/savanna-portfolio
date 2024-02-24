@@ -1,15 +1,24 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Home = () => {
   return (
-    <div className="home">
-      <h2>Welcome to My Portfolio</h2>
-      <p>
-        {/* Add a brief introduction to your portfolio */}
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in aliquam purus. 
-        Integer euismod leo nec risus fermentum, ac eleifend velit consequat. 
-        Integer quis felis aliquet, aliquam leo sit amet, laoreet turpis. 
-      </p>
+    <div>
+      <div className="home">
+        <h2>Ben Birdsall</h2>
+        <h3>Full Stack Web Developer</h3>
+      </div>
+      <ul>
+        <li>
+          <Link to="/about">About</Link>
+        </li>
+        <li>
+          <Link to="/projects">Projects</Link>
+        </li>
+        <li>
+          <Link to="/contact">Contact</Link>
+        </li>
+      </ul>
     </div>
   );
 };
