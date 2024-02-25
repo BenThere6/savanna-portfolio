@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 const Header = () => {
   return (
-    <div className='gray-container'>
+    <div className='gray-container nav'>
       <ul>
         <li>
           <Link to="/">Home</Link>

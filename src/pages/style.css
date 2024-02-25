@@ -31,6 +31,11 @@ h2 {
     font-size: 80px;
     text-align: center;
     margin: 0;
+    margin-bottom: 100px;
+}
+
+#my-name {
+    margin-bottom: 0;
 }
 
 h3 {
@@ -72,11 +77,16 @@ a {
     background-color: var(--thru-black);
     border:var(--border-color) 1px solid;
     border-radius: 20px;
-    width: 400px;
 }
 
-.home-nav {
-    width: 300px;
+.nav {
+    width: 400px;
+    position: absolute;
+    top: 150px;
+}
+
+.contact-form {
+    padding: 15px;
 }
 
 .home-content {
@@ -92,12 +102,10 @@ a {
 }
 
 .content-wrap {
-  flex: 1;
-}
-
-.content-wrap {
     display: flex;
     justify-content: center;
+    flex: 1;
+    display: relative;
 }
 
 .page {
@@ -111,7 +119,7 @@ a {
 }
 
 .p-container {
-    margin-top: 50px;
+    margin-top: 20px;
 }
 
 #headshot-circle {
@@ -123,7 +131,6 @@ a {
     border:1px var(--border-color) solid;
     border-radius: 50%;
     overflow: hidden;
-    margin-bottom:60px;
     position: relative;
 }
 
@@ -131,4 +138,27 @@ a {
     width:350px;
     position:absolute;
     top: 0px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 90vw;
+    max-width: 500px;
+}
+
+.form-field {
+    margin-bottom: 10px;
+    height: 30px;
+    padding-left:7px;
+    border-color: var(--border-color);
+    border-radius: 8px;
+    font-family: var(--font-two);
+}
+
+#message {
+    height: 100px;
+    resize: vertical;
+    padding: 8px;
+    padding-left: 9px;
 }

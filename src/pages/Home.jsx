@@ -1,26 +1,14 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import Nav from '../components/Nav';
 import './style.css';
 
 const Home = () => {
   return (
     <div className='home center'>
       <div className='home-content'>
-        <h2>Ben Birdsall</h2>
+        <Nav />
+        <h2 id='my-name'>Ben Birdsall</h2>
         <h3>Full Stack Web Developer</h3>
-        <div className='gray-container home-nav'>
-          <ul>
-            <li>
-              <Link to="/about">About</Link>
-            </li>
-            <li>
-              <Link to="/projects">Projects</Link>
-            </li>
-            <li>
-              <Link to="/contact">Contact</Link>
-            </li>
-          </ul>
-        </div>
       </div>
     </div>
   );

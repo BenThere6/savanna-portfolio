@@ -13,7 +13,7 @@ const About = () => {
         </div>
         <div className='p-container'>
           <p>
-            Hello! I'm a Full Stack Web Developer, with a special fondness for backend development. My coding journey began with Python, where I developed a love for building automation scripts. This passion led me to pivot from account management to technology, culminating in completing a Full Stack Web Development program at Rutgers.
+            Hello! I'm a Full Stack Web Developer, with more familiarity in backend development. My coding journey began with Python, where I developed a love for building automation scripts. This passion led me to pivot from account management to technology, culminating in completing a Full Stack Web Development program at Rutgers.
           </p>
           <p>
             In my work, I embrace Agile Development principles, focusing on adaptability and efficient progress. My approach is all about creating efficient, maintainable solutions that meet user needs effectively. Outside of coding, I'm an outdoor enthusiast and always eager to try new things, a reflection of my constant pursuit of personal and professional growth.
