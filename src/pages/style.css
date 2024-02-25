@@ -31,7 +31,7 @@ h2 {
     font-size: 80px;
     text-align: center;
     margin: 0;
-    margin-bottom: 100px;
+    margin-bottom: 85px;
 }
 
 #my-name {
@@ -125,7 +125,7 @@ a:hover {
 }
 
 .p-container {
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
 #headshot-circle {
@@ -205,6 +205,11 @@ form {
     margin-top: 100px;
 }
 
-#footer {
-    width: 100%;
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    background-color:var(--thru-black);
+    border-top:var(--border-color) 2px solid;
 }
