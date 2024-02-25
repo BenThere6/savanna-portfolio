@@ -1,5 +1,6 @@
 import React from 'react';
 import Nav from '../components/Nav';
+import project_image from '../assets/project-image.png';
 
 const Projects = () => {
   return (
@@ -9,19 +10,19 @@ const Projects = () => {
         <Nav />
         <div className="project">
           <h3>Project 1</h3>
+          <div className='center'>
+            <img className='project-image' src={project_image} alt='project-image'></img>
+          </div>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in aliquam purus.
             Integer euismod leo nec risus fermentum, ac eleifend velit consequat.
           </p>
-          <a href="#">View Project</a>
-        </div>
-        <div className="project">
-          <h3>Project 2</h3>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in aliquam purus.
-            Integer euismod leo nec risus fermentum, ac eleifend velit consequat.
-          </p>
-          <a href="#">View Project</a>
+          <div className='center'>
+            <div className='gray-container project-links'>
+              <a href="#">View Project</a>
+              <a href="#">View Repository</a>
+            </div>
+          </div>
         </div>
       </div>
     </div>

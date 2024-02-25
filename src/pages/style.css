@@ -176,3 +176,18 @@ form {
 #submit:hover {
     background-color: rgb(86, 110, 119);
 }
+
+.project-image {
+    width: 400px;
+    max-width: 80vw;
+    border-radius: 10px;
+    border:rgb(43, 83, 97) solid 3px;
+}
+
+.project-links {
+    width: 280px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
