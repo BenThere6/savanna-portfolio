@@ -5,7 +5,7 @@
     --font-four: 'Gruppo';
     --thru-black: rgba(35, 58, 73, 0.4);
     --border-color: rgb(176, 175, 175);
-    --shadow-color: rgb(42, 64, 91);
+    /* --shadow-color: rgb(42, 64, 91); */
 
     background-image: url(../../blue-oil-canvas-dark.png);
     background-size: cover;
@@ -63,14 +63,19 @@ li {
     border-radius: 10px;
 }
 
-li:hover {
-    box-shadow: 0px 0px 6px 5px var(--shadow-color);
-    background-color: var(--shadow-color);
-}
-
 a {
     text-decoration: none;
     color: white;
+    /* border-bottom: white 0.5px solid; */
+    border-radius: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    transition: box-shadow .5s, background-color .5s;
+}
+
+a:hover {
+    background-color: rgb(133,159,168, .5);
+    /* box-shadow: 0 0 10px 1px rgb(133,159,168); */
 }
 
 .gray-container {
@@ -161,4 +166,13 @@ form {
     resize: vertical;
     padding: 8px;
     padding-left: 9px;
+}
+
+#submit {
+    background-color: rgb(113, 140, 149);
+    color: white;
+}
+
+#submit:hover {
+    background-color: rgb(86, 110, 119);
 }

@@ -15,7 +15,7 @@ const ContactPage = () => {
           <input className="form-field" type="email" id="email" name="email" placeholder="Email" />
           <input className="form-field" id="subject" name="subject" placeholder="Subject"></input>
           <textarea className="form-field" id="message" name="message" placeholder="Message"></textarea>
-          <button className="form-field" type="submit">Send Message</button>
+          <button className="form-field" id="submit" type="submit">Send Message</button>
         </form>
       </div>
     </div>
