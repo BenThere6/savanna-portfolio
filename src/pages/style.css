@@ -11,12 +11,7 @@
     background-size: cover;
     color: white;
     color: white;
-    /* text-shadow:
-        -.5px -.5px 0 #000,
-        .5px -.5px 0 #000,
-        -.5px .5px 0 #000,
-        .5px .5px 0 #000; */
-    font: var(--font-two);
+    font-family: var(--font-two);
     box-sizing: border-box;
 }
 
@@ -29,7 +24,6 @@ html, body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
 }
 
 h2 {
@@ -43,7 +37,7 @@ h3 {
     font-family: var(--font-two);
     text-align: center;
     margin-top: 0;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
 }
 
 ul {
@@ -53,9 +47,10 @@ ul {
     padding: 0;
 }
 
-li{
+li {
     padding-left: 7px;
     padding-right: 7px;
+    border-radius: 10px;
 }
 
 li:hover {
@@ -72,4 +67,29 @@ a {
     background-color: var(--thru-black);
     border:var(--border-color) 1px solid;
     border-radius: 20px;
+}
+
+.layout-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.content-wrap {
+  flex: 1;
+}
+
+.content-wrap {
+    display: flex;
+    justify-content: center;
+}
+
+.page {
+    margin: 20px;
+}
+
+.page-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
