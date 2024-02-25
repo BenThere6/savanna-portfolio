@@ -3,7 +3,7 @@
     --font-two: 'Kanit';
     --font-three: 'Lisu Bosa';
     --font-four: 'Gruppo';
-    --thru-black: rgba(51, 81, 99, 0.4);
+    --thru-black: rgba(35, 58, 73, 0.4);
     --border-color: rgb(176, 175, 175);
     --shadow-color: rgb(42, 64, 91);
 
@@ -38,6 +38,11 @@ h3 {
     text-align: center;
     margin-top: 0;
     margin-bottom: 50px;
+    font-size: 25px;
+}
+
+p {
+    text-indent: 40px;
 }
 
 ul {
@@ -67,6 +72,17 @@ a {
     background-color: var(--thru-black);
     border:var(--border-color) 1px solid;
     border-radius: 20px;
+    width: 400px;
+}
+
+.home-nav {
+    width: 300px;
+}
+
+.home-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .layout-container {
@@ -85,11 +101,34 @@ a {
 }
 
 .page {
-    margin: 20px;
+    margin: 50px;
 }
 
 .page-content {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.p-container {
+    margin-top: 50px;
+}
+
+#headshot-circle {
+    width:200px;
+    height:200px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    border:1px var(--border-color) solid;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-bottom:60px;
+    position: relative;
+}
+
+#headshot {
+    width:350px;
+    position:absolute;
+    top: 0px;
 }

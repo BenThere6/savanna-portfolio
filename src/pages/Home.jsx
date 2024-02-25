@@ -5,10 +5,10 @@ import './style.css';
 const Home = () => {
   return (
     <div className='home center'>
-      <div>
+      <div className='home-content'>
         <h2>Ben Birdsall</h2>
         <h3>Full Stack Web Developer</h3>
-        <div className='gray-container'>
+        <div className='gray-container home-nav'>
           <ul>
             <li>
               <Link to="/about">About</Link>
