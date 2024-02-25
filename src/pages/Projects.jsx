@@ -8,8 +8,40 @@ const Projects = () => {
       <div className="page-content">
         <h2>My Projects</h2>
         <Nav />
+        <div className="project" id='first-project'>
+          <h3 className='project-name'>Project 1</h3>
+          <div className='center'>
+            <img className='project-image' src={project_image} alt='project-image'></img>
+          </div>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in aliquam purus.
+            Integer euismod leo nec risus fermentum, ac eleifend velit consequat.
+          </p>
+          <div className='center'>
+            <div className='gray-container project-links'>
+              <a href="#">View Project</a>
+              <a href="#">View Repository</a>
+            </div>
+          </div>
+        </div>
         <div className="project">
-          <h3>Project 1</h3>
+          <h3 className='project-name'>Project 1</h3>
+          <div className='center'>
+            <img className='project-image' src={project_image} alt='project-image'></img>
+          </div>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in aliquam purus.
+            Integer euismod leo nec risus fermentum, ac eleifend velit consequat.
+          </p>
+          <div className='center'>
+            <div className='gray-container project-links'>
+              <a href="#">View Project</a>
+              <a href="#">View Repository</a>
+            </div>
+          </div>
+        </div>
+        <div className="project">
+          <h3 className='project-name'>Project 1</h3>
           <div className='center'>
             <img className='project-image' src={project_image} alt='project-image'></img>
           </div>

@@ -4,7 +4,7 @@ import './style.css'
 const Footer = () => {
   return (
     <footer>
-      <div className="footer-content">
+      <div className="footer-content center">
         <p>&copy; {new Date().getFullYear()} Ben Birdsall</p>
       </div>
     </footer>
