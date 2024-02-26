@@ -3,7 +3,7 @@
     --font-two: 'Kanit';
     --font-three: 'Lisu Bosa';
     --font-four: 'Gruppo';
-    --thru-black: rgba(35, 58, 73, 0.4);
+    --thru-black: rgba(35, 58, 73, 0.9);
     --border-color: rgb(176, 175, 175);
     /* --shadow-color: rgb(42, 64, 91); */
 
@@ -31,7 +31,7 @@ h2 {
     font-size: 80px;
     text-align: center;
     margin: 0;
-    margin-bottom: 85px;
+    margin-bottom: 15px;
 }
 
 #my-name {
@@ -48,7 +48,8 @@ h3 {
 
 p {
     text-indent: 40px;
-    max-width: 800px
+    max-width: 800px;
+    font-size: 18px;
 }
 
 ul {
@@ -87,9 +88,17 @@ a:hover {
 
 .nav {
     width: 400px;
-    position: absolute;
-    top: 150px;
+    position: sticky;
+    margin-bottom: 30px;
+    top: 20px;
+    backdrop-filter: blur(2px);
+    z-index: 100;
 }
+
+/* .nav-shifted {
+    position: absolute;
+    top: 137px;
+} */
 
 .contact-form {
     padding: 15px;
@@ -111,7 +120,7 @@ a:hover {
     display: flex;
     justify-content: center;
     flex: 1;
-    display: relative;
+    position: relative;
 }
 
 .page {
@@ -160,6 +169,7 @@ form {
     border-color: var(--border-color);
     border-radius: 8px;
     font-family: var(--font-two);
+    font-size: 18px;
 }
 
 #message {
@@ -172,6 +182,9 @@ form {
 #submit {
     background-color: rgb(113, 140, 149);
     color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 #submit:hover {
@@ -212,4 +225,38 @@ footer {
     height: 60px;
     background-color:var(--thru-black);
     border-top:var(--border-color) 2px solid;
+}
+
+@media (max-width:540px) {
+    .nav {
+        position: fixed;
+        top: 10px;
+    }
+    h2 {
+        margin-top: 40px;
+    }
+}
+
+@media (max-width:410px) {
+    .nav {
+        max-width: 95vw;
+    }
+    h2 {
+        font-size: 60px;
+    }
+    p {
+        width: 85vw;
+    }
+}
+
+@media (max-width:280px) {
+    .nav {
+        max-width: 100vw;
+    }
+    a {
+        padding: 0;
+    }
+    h3 {
+        font-size: 20px;
+    }
 }
