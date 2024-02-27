@@ -199,7 +199,8 @@ form {
 }
 
 .project-image {
-    width: 400px;
+    max-height: 270px;
+    width: auto;
     max-width: 80vw;
     border-radius: 10px;
     border:rgb(43, 83, 97) solid 3px;
@@ -225,12 +226,20 @@ h2, h3 {
          1px 1px 0 black;
 }
 
-#first-project {
+#proj-one,#proj-two {
     margin-top: 0px;
 }
 
 .project {
     margin-top: 100px;
+    flex: 0 0 48%;
+}
+
+.projects-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
 }
 
 footer {
@@ -240,6 +249,15 @@ footer {
     height: 60px;
     background-color:var(--thru-black);
     border-top:var(--border-color) 2px solid;
+}
+
+@media (max-width:1023px) {
+    .projects-container {
+        display: block;
+    }
+    #proj-two {
+        margin-top: 100px;
+    }
 }
 
 @media (max-width:768px) {
