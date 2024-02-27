@@ -240,6 +240,7 @@ h2, h3 {
     flex-wrap: wrap;
     justify-content: space-between;
     gap: 20px;
+    max-width: 1440px;
 }
 
 footer {
@@ -251,12 +252,21 @@ footer {
     border-top:var(--border-color) 2px solid;
 }
 
+@media (min-width:1440px) {
+    .project-image {
+        max-height: 400px;
+    }
+}
+
 @media (max-width:1023px) {
     .projects-container {
         display: block;
     }
     #proj-two {
         margin-top: 100px;
+    }
+    .project-image {
+        max-height: 400px;
     }
 }
 
