@@ -8,7 +8,8 @@
     /* box-sizing: border-box; */
 }
 
-html, body {
+html,
+body {
     margin: 0;
     padding: 0;
     width: 100%;
@@ -18,7 +19,7 @@ html, body {
 
 body {
     background-image: url(../../blue-oil-canvas-dark.png);
-    background-size:cover;
+    background-size: cover;
     background-repeat: repeat;
     background-attachment: fixed;
     background-position: center center;
@@ -33,7 +34,7 @@ body {
 }
 
 h2 {
-    font-family:var(--font-one);
+    font-family: var(--font-one);
     font-size: 80px;
     text-align: center;
     margin: 0;
@@ -82,18 +83,18 @@ a {
 }
 
 a:hover {
-    background-color: rgb(133,159,168, .5);
+    background-color: rgb(133, 159, 168, .5);
 }
 
 .gray-container {
     background-color: var(--thru-black);
-    border:var(--border-color) 1px solid;
+    border: var(--border-color) 1px solid;
     border-radius: 20px;
 }
 
 .gray-text-container {
     background-color: rgba(35, 58, 73, 0.5);
-    border:var(--border-color) 1px solid;
+    border: var(--border-color) 1px solid;
     border-radius: 20px;
     padding: 20px;
 }
@@ -145,20 +146,20 @@ a:hover {
 }
 
 #headshot-circle {
-    width:200px;
-    height:200px;
-    display:flex;
+    width: 200px;
+    height: 200px;
+    display: flex;
     align-items: center;
     justify-content: center;
-    border:1px var(--border-color) solid;
+    border: 1px var(--border-color) solid;
     border-radius: 50%;
     overflow: hidden;
     position: relative;
 }
 
 #headshot {
-    width:350px;
-    position:absolute;
+    width: 350px;
+    position: absolute;
     top: 0px;
 }
 
@@ -172,7 +173,7 @@ form {
 .form-field {
     margin-bottom: 10px;
     height: 30px;
-    padding-left:7px;
+    padding-left: 7px;
     border-color: var(--border-color);
     border-radius: 8px;
     font-family: var(--font-two);
@@ -205,7 +206,7 @@ form {
     object-fit: cover;
     object-position: top;
     border-radius: 10px;
-    border:rgb(43, 83, 97) solid 3px;
+    border: rgb(43, 83, 97) solid 3px;
 }
 
 .project-links {
@@ -220,15 +221,17 @@ form {
     margin-bottom: 10px;
 }
 
-h2, h3 {
-    text-shadow: 
-        -1px -1px 0 black,  
-         1px -1px 0 black,
+h2,
+h3 {
+    text-shadow:
+        -1px -1px 0 black,
+        1px -1px 0 black,
         -1px 1px 0 black,
-         1px 1px 0 black;
+        1px 1px 0 black;
 }
 
-#proj-one,#proj-two {
+#proj-one,
+#proj-two {
     margin-top: 0px;
 }
 
@@ -250,8 +253,34 @@ footer {
     justify-content: center;
     align-items: center;
     height: 60px;
-    background-color:var(--thru-black);
-    border-top:var(--border-color) 2px solid;
+    background-color: var(--thru-black);
+    border-top: var(--border-color) 2px solid;
+}
+
+.popup {
+    transition: opacity 0.5s ease-in-out, visibility 0.5s ease-in-out;
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: green;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.fade-in {
+    visibility: visible;
+    opacity: 1;
+}
+
+.fade-out {
+    visibility: hidden;
+    opacity: 0;
 }
 
 @media (min-width:1440px) {
@@ -264,9 +293,11 @@ footer {
     .projects-container {
         display: block;
     }
+
     #proj-two {
         margin-top: 100px;
     }
+
     .project-image {
         max-height: 400px;
     }
@@ -276,9 +307,11 @@ footer {
     a:hover {
         background-color: none;
     }
+
     a:active {
         background-color: none;
     }
+
     body {
         background-size: auto;
     }
@@ -289,6 +322,7 @@ footer {
         position: fixed;
         top: 10px;
     }
+
     h2 {
         margin-top: 40px;
     }
@@ -298,12 +332,15 @@ footer {
     .nav {
         max-width: 95vw;
     }
+
     h2 {
         font-size: 60px;
     }
+
     p {
         width: 85vw;
     }
+
     a {
         padding: 0;
     }
@@ -313,6 +350,7 @@ footer {
     .nav {
         max-width: 100vw;
     }
+
     h3 {
         font-size: 20px;
     }

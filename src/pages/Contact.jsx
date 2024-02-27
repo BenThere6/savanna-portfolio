@@ -1,20 +1,27 @@
-import React, { useRef } from 'react';
+import React, { useRef, useState } from 'react';
 import emailjs from 'emailjs-com';
 import Nav from '../components/Nav';
 
 const ContactPage = () => {
+  const [showPopup, setShowPopup] = useState(false);
   const form = useRef();
 
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('service_45wr2uk', 'template_y1pnsx8', form.current, 'YOUR_USER_ID')
-      .then((result) => {
-        console.log('Email successfully sent!', result.text);
-        form.current.reset();
-      }, (error) => {
-        console.log('Failed to send email:', error.text);
-      });
+    emailjs.sendForm(
+      'service_45wr2uk',
+      'template_y1pnsx8',
+      form.current,
+      'RWEZEfbjmuw5702LO'
+    ).then((result) => {
+      console.log('Email successfully sent!', result.text);
+      form.current.reset();
+      setShowPopup(true);
+      setTimeout(() => setShowPopup(false), 3000);
+    }, (error) => {
+      console.log('Failed to send email:', error.text);
+    });
   };
 
   return (
@@ -32,6 +39,9 @@ const ContactPage = () => {
           <textarea className="form-field" id="message" name="message" placeholder="Message" />
           <button className="form-field" id="submit" type="submit">Send Message</button>
         </form>
+        <div className={`popup ${showPopup ? 'fade-in' : 'fade-out'}`}>
+          Message sent successfully!
+        </div>
       </div>
     </div>
   );
