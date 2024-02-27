@@ -112,6 +112,11 @@ a:hover {
     padding: 15px;
 }
 
+#contact-p {
+    width: 90vw;
+    max-width: 500px;
+}
+
 .home-content {
     display: flex;
     flex-direction: column;
