@@ -2,7 +2,6 @@ import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 import os from 'os';
 
-// Function to get the local IP address
 function getLocalIPAddress() {
   const interfaces = os.networkInterfaces();
   for (const devName in interfaces) {
