@@ -22,8 +22,8 @@ const Projects = () => {
             </p>
             <div className='center'>
               <div className='gray-container project-links'>
-                <a href="#">View Project</a>
-                <a href="#">View Repository</a>
+                <a href="https://fierce-tor-16803-290b9f9ab8e3.herokuapp.com" target="_blank">View Project</a>
+                <a href="https://github.com/BenThere6/habit-tracker" target="_blank">View Repository</a>
               </div>
             </div>
           </div>
@@ -39,8 +39,8 @@ const Projects = () => {
             </p>
             <div className='center'>
               <div className='gray-container project-links'>
-                <a href="#">View Project</a>
-                <a href="#">View Repository</a>
+                <a href="https://reel-delights.onrender.com/" target="_blank">View Project</a>
+                <a href="https://github.com/MalkaGreenberg/reel-delights" target="_blank">View Repository</a>
               </div>
             </div>
           </div>
@@ -56,8 +56,8 @@ const Projects = () => {
             </p>
             <div className='center'>
               <div className='gray-container project-links'>
-                <a href="#">View Project</a>
-                <a href="#">View Repository</a>
+                <a href="https://benthere6.github.io/priority-web-app/" target="_blank">View Project</a>
+                <a href="https://github.com/BenThere6/priority-web-app" target="_blank">View Repository</a>
               </div>
             </div>
           </div>
@@ -73,8 +73,8 @@ const Projects = () => {
             </p>
             <div className='center'>
               <div className='gray-container project-links'>
-                <a href="#">View Project</a>
-                <a href="#">View Repository</a>
+                <a href="https://benthere6.github.io/code-quiz/" target="_blank">View Project</a>
+                <a href="https://github.com/BenThere6/code-quiz" target="_blank">View Repository</a>
               </div>
             </div>
           </div>
@@ -90,7 +90,7 @@ const Projects = () => {
             </p>
             <div className='center'>
               <div className='gray-container project-links'>
-                <a href="#">View Repository</a>
+                <a href="https://github.com/BenThere6/budgeter" target="_blank">View Repository</a>
               </div>
             </div>
           </div>
