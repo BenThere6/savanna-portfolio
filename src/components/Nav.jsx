@@ -4,10 +4,10 @@ const Header = () => {
   return (
     <div className='gray-container nav'>
       <ul>
-        <li><Link to="/">Home</Link></li>
-        <li><Link to="/about">About</Link></li>
-        <li><Link to="/projects">Projects</Link></li>
-        <li><Link to="/contact">Contact</Link></li>
+        <li className='link'><Link to="/">Home</Link></li>
+        <li className='link'><Link to="/about">About</Link></li>
+        <li className='link'><Link to="/projects">Projects</Link></li>
+        <li className='link'><Link to="/contact">Contact</Link></li>
       </ul>
     </div>
   );

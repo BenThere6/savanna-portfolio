@@ -44,8 +44,8 @@ const Projects = () => {
             </div>
             <div className='center'>
               <div className='gray-container project-links'>
-                <a href="https://fierce-tor-16803-290b9f9ab8e3.herokuapp.com" target="_blank">View Project</a>
-                <a href="https://github.com/BenThere6/habit-tracker" target="_blank">View Repository</a>
+                <a className='link' href="https://fierce-tor-16803-290b9f9ab8e3.herokuapp.com" target="_blank">View Project</a>
+                <a className='link' href="https://github.com/BenThere6/habit-tracker" target="_blank">View Repository</a>
               </div>
             </div>
           </div>
@@ -70,8 +70,8 @@ const Projects = () => {
             </div>
             <div className='center'>
               <div className='gray-container project-links'>
-                <a href="https://reel-delights.onrender.com/" target="_blank">View Project</a>
-                <a href="https://github.com/MalkaGreenberg/reel-delights" target="_blank">View Repository</a>
+                <a className='link' href="https://reel-delights.onrender.com/" target="_blank">View Project</a>
+                <a className='link' href="https://github.com/MalkaGreenberg/reel-delights" target="_blank">View Repository</a>
               </div>
             </div>
           </div>
@@ -95,8 +95,8 @@ const Projects = () => {
             </div>
             <div className='center'>
               <div className='gray-container project-links'>
-                <a href="https://benthere6.github.io/priority-web-app/" target="_blank">View Project</a>
-                <a href="https://github.com/BenThere6/priority-web-app" target="_blank">View Repository</a>
+                <a className='link' href="https://benthere6.github.io/priority-web-app/" target="_blank">View Project</a>
+                <a className='link' href="https://github.com/BenThere6/priority-web-app" target="_blank">View Repository</a>
               </div>
             </div>
           </div>
@@ -120,8 +120,8 @@ const Projects = () => {
             </div>
             <div className='center'>
               <div className='gray-container project-links'>
-                <a href="https://benthere6.github.io/weather_dashboard/" target="_blank">View Project</a>
-                <a href="https://github.com/BenThere6/weather_dashboard" target="_blank">View Repository</a>
+                <a className='link' href="https://benthere6.github.io/weather_dashboard/" target="_blank">View Project</a>
+                <a className='link' href="https://github.com/BenThere6/weather_dashboard" target="_blank">View Repository</a>
               </div>
             </div>
           </div>
@@ -144,7 +144,7 @@ const Projects = () => {
             </div>
             <div className='center'>
               <div className='gray-container project-links'>
-                <a href="https://github.com/BenThere6/budgeter" target="_blank">View Repository</a>
+                <a className='link' href="https://github.com/BenThere6/budgeter" target="_blank">View Repository</a>
               </div>
             </div>
           </div>
