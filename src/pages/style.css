@@ -200,8 +200,10 @@ form {
 
 .project-image {
     max-height: 270px;
-    width: auto;
+    width: 100%;
     max-width: 80vw;
+    object-fit: cover;
+    object-position: top;
     border-radius: 10px;
     border:rgb(43, 83, 97) solid 3px;
 }
