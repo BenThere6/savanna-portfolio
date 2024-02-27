@@ -7,7 +7,7 @@ const ContactPage = () => {
       <div className='page-content'>
         <h2>Get in Touch</h2>
         <Nav />
-        <p>
+        <p className='gray-text-container'>
           If you have any questions or just want to say hello, feel free to contact me using the form below or by sending an email.
         </p>
         <form className='gray-container contact-form'>

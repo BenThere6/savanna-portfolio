@@ -11,7 +11,7 @@ const About = () => {
         <div id="headshot-circle">
           <img id='headshot' src={headshot} alt="Photo of Ben Birdsall"/>
         </div>
-        <div className='p-container'>
+        <div className='p-container gray-text-container'>
           <p>
             Hello! I'm a Full Stack Web Developer, with more familiarity in backend development. My coding journey began with Python, where I developed a love for building automation scripts. This passion led me to pivot from account management to technology, culminating in completing a Full Stack Web Development program at Rutgers.
           </p>

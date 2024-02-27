@@ -2,10 +2,10 @@ import { Link, useLocation } from 'react-router-dom';
 
 const Header = () => {
   const location = useLocation();
-  const isHomePage = location.pathname === '/';
+  // const isHomePage = location.pathname === '/';
 
   return (
-    <div className={`gray-container nav ${isHomePage ? 'nav-shifted' : ''}`}>
+    <div className='gray-container nav'>
       <ul>
         <li><Link to="/">Home</Link></li>
         <li><Link to="/about">About</Link></li>
