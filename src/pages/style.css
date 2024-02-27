@@ -51,7 +51,7 @@ h3 {
     text-align: center;
     margin-top: 0;
     margin-bottom: 50px;
-    font-size: 25px;
+    font-size: 30px;
 }
 
 p {
@@ -211,7 +211,7 @@ form {
     object-fit: cover;
     object-position: top;
     border-radius: 10px;
-    border: rgb(43, 83, 97) solid 3px;
+    border: var(--border-color) 1px solid;
     box-sizing: border-box;
 }
 
