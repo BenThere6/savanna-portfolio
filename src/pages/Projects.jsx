@@ -37,9 +37,9 @@ const Projects = () => {
             </div>
             <div className='icons'>
               <div className='icons-container'>
-                <img className='icon gray-container' src={nodejs_icon} alt='technology-icon'></img>
-                <img className='icon gray-container' src={handlebars_icon} alt='technology-icon'></img>
-                <img className='icon gray-container' src={mysql_icon} alt='technology-icon'></img>
+                <img className='icon gray-container' src={nodejs_icon} alt='technology-icon' title='Node JS'></img>
+                <img className='icon gray-container' src={handlebars_icon} alt='technology-icon' title='Handlebars JS'></img>
+                <img className='icon gray-container' src={mysql_icon} alt='technology-icon' title='MySQL'></img>
               </div>
             </div>
             <div className='center'>
@@ -62,10 +62,10 @@ const Projects = () => {
             </div>
             <div className='icons'>
               <div className='icons-container'>
-                <img className='icon gray-container' src={react_icon} alt='technology-icon'></img>
-                <img className='icon gray-container' src={vite_icon} alt='technology-icon'></img>
-                <img className='icon gray-container' src={graphql_icon} alt='technology-icon'></img>
-                <img className='icon gray-container' src={mongodb_icon} alt='technology-icon'></img>
+                <img className='icon gray-container' src={react_icon} alt='technology-icon' title='React'></img>
+                <img className='icon gray-container' src={vite_icon} alt='technology-icon' title='Vite'></img>
+                <img className='icon gray-container' src={graphql_icon} alt='technology-icon' title='GraphQL'></img>
+                <img className='icon gray-container' src={mongodb_icon} alt='technology-icon' title='MongoDB'></img>
               </div>
             </div>
             <div className='center'>
@@ -88,9 +88,9 @@ const Projects = () => {
             </div>
             <div className='icons'>
               <div className='icons-container'>
-                <img className='icon gray-container' src={html_icon} alt='technology-icon'></img>
-                <img className='icon gray-container' src={css_icon} alt='technology-icon'></img>
-                <img className='icon gray-container' src={js_icon} alt='technology-icon'></img>
+                <img className='icon gray-container' src={html_icon} alt='technology-icon' title='HTML 5'></img>
+                <img className='icon gray-container' src={css_icon} alt='technology-icon' title='CSS 3'></img>
+                <img className='icon gray-container' src={js_icon} alt='technology-icon' title='JavaScript'></img>
               </div>
             </div>
             <div className='center'>
@@ -113,9 +113,9 @@ const Projects = () => {
             </div>
             <div className='icons'>
               <div className='icons-container'>
-                <img className='icon gray-container' src={html_icon} alt='technology-icon'></img>
-                <img className='icon gray-container' src={css_icon} alt='technology-icon'></img>
-                <img className='icon gray-container' src={js_icon} alt='technology-icon'></img>
+                <img className='icon gray-container' src={html_icon} alt='technology-icon' title='HTML 5'></img>
+                <img className='icon gray-container' src={css_icon} alt='technology-icon' title='CSS 3'></img>
+                <img className='icon gray-container' src={js_icon} alt='technology-icon' title='JavaScript'></img>
               </div>
             </div>
             <div className='center'>
@@ -139,7 +139,7 @@ const Projects = () => {
             </div>
             <div className='icons'>
               <div className='icons-container'>
-                <img className='icon gray-container' id='python-icon' src={python_icon} alt='technology-icon'></img>
+                <img className='icon gray-container' id='python-icon' src={python_icon} alt='technology-icon' title='Python'></img>
               </div>
             </div>
             <div className='center'>
