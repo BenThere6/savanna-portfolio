@@ -205,9 +205,9 @@ form {
 }
 
 .project-image {
-    max-height: 270px;
+    height: 420px;
     width: 100%;
-    max-width: 80vw;
+    max-width: 90vw;
     object-fit: cover;
     object-position: top;
     border-radius: 10px;
@@ -288,9 +288,17 @@ footer {
     opacity: 0;
 }
 
+
+
+@media (min-width:1023px) {
+    .project-image {
+        height: 300px;
+    }
+}
+
 @media (min-width:1440px) {
     .project-image {
-        max-height: 400px;
+        height: 400px;
     }
 }
 
@@ -298,13 +306,8 @@ footer {
     .projects-container {
         display: block;
     }
-
     #proj-two {
         margin-top: 100px;
-    }
-
-    .project-image {
-        max-height: 400px;
     }
 }
 
@@ -331,6 +334,9 @@ footer {
     h2 {
         margin-top: 40px;
     }
+    .project-image {
+        max-height: 270px;
+    }
 }
 
 @media (max-width:410px) {
@@ -341,11 +347,12 @@ footer {
     h2 {
         font-size: 60px;
     }
-
+    .project-image {
+        max-width: 100vw;
+    }
     p {
         width: 85vw;
     }
-
     a {
         padding: 0;
     }
