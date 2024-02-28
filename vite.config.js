@@ -25,5 +25,5 @@ export default defineConfig({
     host: localIP,
     port: 3000,
   },
-  base: '/repo/',
+  // base: '/repo/',
 });
