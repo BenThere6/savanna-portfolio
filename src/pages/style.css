@@ -5,7 +5,6 @@
     --font-four: 'Gruppo';
     --thru-black: rgba(35, 58, 73, 0.9);
     --border-color: rgb(176, 175, 175);
-    /* box-sizing: border-box; */
 }
 
 html,
@@ -254,6 +253,7 @@ h3 {
 .project {
     margin-top: 100px;
     flex: 0 0 48%;
+    max-width: 100vw;
 }
 
 .projects-container {
