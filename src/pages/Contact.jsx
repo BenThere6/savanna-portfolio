@@ -11,7 +11,7 @@ const ContactPage = () => {
 
     emailjs.sendForm(
       'service_45wr2uk',
-      'template_y1pnsx8',
+      'template_2e8f7ee',
       form.current,
       'RWEZEfbjmuw5702LO'
     ).then((result) => {
