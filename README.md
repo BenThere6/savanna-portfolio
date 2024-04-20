@@ -1,4 +1,4 @@
-# Ben Birdsall's Web Development Portfolio
+# Savanna Birdsall's Portfolio
 
 ## Description
 Welcome to my web development and coding portfolio! This portfolio showcases a collection of my projects, highlighting my skills and creativity in web development and software engineering. Each project is a testament to my ability to design, develop, and deploy web applications and tools that are both functional and aesthetically pleasing.
@@ -21,7 +21,5 @@ Feel free to explore my projects and reach out if you have any questions, feedba
 
 Email: benjaminbirdsall@icloud.com <br>
 LinkedIn: [LinkedIn Profile](https://www.linkedin.com/in/your-username) <br>
-GitHub: [GitHub Profile](https://www.github.com/iBenThere6)
 
 Thank you for visiting my portfolio!
-
