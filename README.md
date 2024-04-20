@@ -19,7 +19,7 @@ This is a portfolio I put together for Savanna Birdsall.
 ## Contact
 Feel free to reach out if you have any questions, feedback, or opportunities. 
 
-Email: savannabirdsall@gmail.com <br>
+Email: savannabirdsall1@gmail.com <br>
 <!-- LinkedIn: [LinkedIn Profile](https://www.linkedin.com/in/your-username) <br> -->
 
 Thank you for visiting my portfolio!
