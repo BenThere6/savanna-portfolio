@@ -6,11 +6,13 @@ const Projects = () => {
   return (
     <div className="page">
       <div className="page-content">
-        <h2>My Projects</h2>
+        <div>
+          <h2 className='white-fade-background'>My Projects</h2>
+        </div>
         <Nav />
         <div className='projects-container'>
 
-        <div className="project" id='proj-one'>
+          <div className="project" id='proj-one'>
             <h3 className='project-name'>Habit Tracker</h3>
             <div className='center'>
               <img className='project-image' src={template_image} alt='project-image'></img>

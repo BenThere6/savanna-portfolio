@@ -7,8 +7,10 @@ const Home = () => {
     <div className='home center'>
       <div className='home-content'>
         <Nav />
-        <h2 id='my-name'>Savanna Birdsall</h2>
-        <h3 >Child Relations Professional</h3>
+        <div className='white-fade-background'>
+          <h2 id='my-name'>Savanna Birdsall</h2>
+          <h3 >Child Relations Professional</h3>
+        </div>
       </div>
     </div>
   );

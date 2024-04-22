@@ -27,7 +27,9 @@ const ContactPage = () => {
   return (
     <div className="contact page">
       <div className='page-content'>
-        <h2>Get in Touch</h2>
+        <div>
+          <h2 className='white-fade-background'>Get in Touch</h2>
+        </div>
         <Nav />
         <p className='gray-text-container' id='contact-p'>
           If you have any questions or just want to say hello, feel free to contact me using the form below or by sending an email.
