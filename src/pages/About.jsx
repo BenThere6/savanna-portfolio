@@ -1,6 +1,6 @@
 import React from 'react';
 import Nav from '../components/Nav';
-import headshot from '../assets/100_0029.jpeg';
+import headshot from '../assets/savanna-headshot.jpg';
 
 const About = () => {
   return (

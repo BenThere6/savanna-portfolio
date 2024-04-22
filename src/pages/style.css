@@ -1,10 +1,18 @@
 :root {
-    --font-one: 'Dancing Script';
-    --font-two: 'Comfortaa';
-    /* --font-three: 'Lisu Bosa'; */
-    /* --font-four: 'Gruppo'; */
-    --thru-black: rgba(35, 58, 73, 0.9);
+    --font-one: 'Great Vibes';
+    --font-two: 'Indie Flower';
+    /* --thru-black: rgba(44, 41, 54, 0.854); */
+    --thru-black: rgba(241, 221, 221, .9);
     --border-color: rgb(176, 175, 175);
+
+    /* New colors */
+    --heading: rgb(170, 100, 120);
+    --heading-two: rgb(80, 90, 100);
+    --paragraph: rgb(80,80,80);
+    --footer: rgb(200,170,170);
+
+    --see-through-white: rgba(255, 255, 255, .4);
+    --h3: rgb(170, 100, 120);
 }
 
 *,
@@ -24,12 +32,12 @@ body {
 }
 
 body {
-    background-image: url(../../new-option-two.jpg);
-    background-size: cover;
+    background-image: url(/hd-1.jpg);
+    background-size:cover;
     background-repeat: repeat;
     background-attachment: fixed;
     background-position: center center;
-    color: white;
+    color: var(--paragraph);
     font-family: var(--font-two);
 }
 
@@ -46,24 +54,50 @@ h2 {
     margin: 0;
     margin-top: 50px;
     margin-bottom: 15px;
+    color: var(--heading);
+    text-shadow:
+        -0.5px -0.5px 0 black,
+        0.5px -0.5px 0 black,
+        -0.5px 0.5px 0 black,
+        0.5px 0.5px 0 black;
 }
 
 #my-name {
     margin-bottom: 0;
 }
 
+#job-title {
+    font-size: 25px;
+}
+
 h3 {
+    position:relative;
+    top:-10px;
     font-family: var(--font-two);
     text-align: center;
     margin-top: 0;
     margin-bottom: 50px;
     font-size: 35px;
+    color: var(--h3);
+    width: 100%;
+    /* background-color: white; */
+    /* border: .5px black solid; */
+    /* text-shadow:
+        -0.5px -0.5px 0 black,
+        0.5px -0.5px 0 black,
+        -0.5px 0.5px 0 black,
+        0.5px 0.5px 0 black; */
+}
+
+h4 {
+    font-size: 20px;
 }
 
 p {
     text-indent: 40px;
     max-width: 800px;
     font-size: 18px;
+    color: var(--paragraph);
 }
 
 ul {
@@ -81,7 +115,7 @@ li {
 
 a {
     text-decoration: none;
-    color: white;
+    color: var(--paragraph);
     border-radius: 5px;
     padding-left: 10px;
     padding-right: 10px;
@@ -103,7 +137,7 @@ a {
 }
 
 .gray-text-container {
-    background-color: rgba(35, 58, 73, 0.5);
+    background-color: var(--see-through-white);
     border: var(--border-color) 1px solid;
     border-radius: 20px;
     padding: 20px;
@@ -128,9 +162,16 @@ a {
 }
 
 .home-content {
+    position: relative;
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.white-fade-background {
+    border-radius: 50%;
+    width: 100%;
+    background: radial-gradient(ellipse at center, white -20%, rgba(255, 255, 255, 0) 72%);
 }
 
 .layout-container {
@@ -157,6 +198,8 @@ a {
 }
 
 .p-container {
+    width: 80vw;
+    max-width: 800px;
     margin-top: 50px;
 }
 
@@ -181,6 +224,11 @@ a {
     width: 350px;
     position: absolute;
     top: 0px;
+}
+
+#resume-title {
+    top: 40px;
+    margin-bottom: 0;
 }
 
 form {
@@ -243,15 +291,6 @@ form {
     margin-bottom: 10px;
 }
 
-h2,
-h3 {
-    text-shadow:
-        -1px -1px 0 black,
-        1px -1px 0 black,
-        -1px 1px 0 black,
-        1px 1px 0 black;
-}
-
 #proj-one,
 #proj-two {
     margin-top: 0px;
@@ -272,19 +311,20 @@ h3 {
 }
 
 footer {
+    color: black;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: var(--thru-black);
-    border-top: var(--border-color) 2px solid;
+    background-color: var(--see-through-white);
+    border-top: black .5px solid;
     padding: 20px;
 }
 
 .footer-icon {
     width: 40px;
     padding: 5px;
-    filter: invert(100%);
+    filter: invert(100%) brightness(40%);
     box-sizing: border-box;
     transition: all .2s ease-in-out;
 }
@@ -293,13 +333,12 @@ footer {
     transform: scale(1.1);
 }
 
-.popup {
+.popup, .red-popup {
     transition: opacity 0.5s ease-in-out, visibility 0.5s ease-in-out;
     position: fixed;
     bottom: 20px;
     left: 50%;
     transform: translateX(-50%);
-    background-color: green;
     color: white;
     padding: 10px 20px;
     border-radius: 5px;
@@ -307,6 +346,14 @@ footer {
     z-index: 1000;
     visibility: hidden;
     opacity: 0;
+}
+
+.popup {
+    background-color: green;
+}
+
+.red-popup {
+    background-color: red;
 }
 
 .fade-in {
