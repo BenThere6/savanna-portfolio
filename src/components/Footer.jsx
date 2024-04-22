@@ -9,7 +9,7 @@ const Footer = () => {
       <div className='icons'>
         <div className='center'>
           <a href="mailto:savannabirdsall1@gmail.com" target="_blank" rel="noopener noreferrer">
-            <img className='footer-icon' src={email_icon} alt='Email' title='Email' />
+            <img className='footer-icon' src={email_icon} alt='Email' title='savannabirdsall1@gmail.com' />
           </a>
           <a href="https://www.linkedin.com/in/savanna-birdsall-024692272" target="_blank" rel="noopener noreferrer">
             <img className='footer-icon' src={linkedin_icon} alt='LinkedIn' title='LinkedIn' />
