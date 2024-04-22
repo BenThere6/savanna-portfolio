@@ -21,6 +21,12 @@ const About = () => {
             Outside of academics, I'm deeply passionate about singing, dancing, and reading. Music and movement are my creative outlets, allowing me to express myself freely, while books offer me endless opportunities for learning and exploration. I thrive on new experiences and connections, always seeking to grow and embrace the richness of life.
           </p>
         </div>
+
+        <h3 id='ethical-statement-title'>Personal Ethical Statement</h3>
+        <div className='p-container gray-text-container'>
+          <p>This is where the statement will be.</p>
+        </div>
+
         <h3 id='resume-title'>Resume</h3>
         <div className='p-container gray-text-container'>
           <h4>

@@ -9,7 +9,7 @@ const Home = () => {
         <Nav />
         <div className='white-fade-background'>
           <h2 id='my-name'>Savanna Birdsall</h2>
-          <h3 >Child Relations Professional</h3>
+          <h3 >Public Relations Professional</h3>
         </div>
       </div>
     </div>

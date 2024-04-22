@@ -227,7 +227,7 @@ a {
     left: -20px;
 }
 
-#resume-title {
+#resume-title, #ethical-statement-title {
     top: 40px;
     margin-bottom: 0;
 }
@@ -318,7 +318,7 @@ footer {
     justify-content: center;
     align-items: center;
     background-color: var(--see-through-white);
-    border-top: black .5px solid;
+    border-top: var(--border-color) 1px solid;
     padding: 20px;
 }
 
