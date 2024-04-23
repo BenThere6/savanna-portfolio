@@ -288,7 +288,7 @@ form {
     width: 100%;
     max-width: 90vw;
     object-fit: cover;
-    object-position: top;
+    object-position: center;
     border-radius: 10px;
     border: var(--border-color) 1px solid;
     box-sizing: border-box;
