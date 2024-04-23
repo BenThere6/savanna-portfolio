@@ -22,9 +22,11 @@ const Projects = () => {
         </div>
         <Nav />
         <div className='projects-container'>
-          <div className='category-buttons'>
-            <button onClick={() => handleCategoryChange('research')}>Research and Evaluation</button>
-            <button onClick={() => handleCategoryChange('writing')}>Writing Tactics</button>
+          <div className='center'>
+            <div className='category-buttons gray-text-container'>
+              <button onClick={() => handleCategoryChange('research')} className='category-button cat-but-1'>Research and Evaluation</button>
+              <button onClick={() => handleCategoryChange('writing')} className='category-button'>Writing Tactics</button>
+            </div>
           </div>
           {selectedCategory === 'research' && (
             <div>
