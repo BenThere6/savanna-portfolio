@@ -15,10 +15,13 @@ const About = () => {
         </div>
         <div className='p-container gray-text-container'>
           <p>
-            I'm Savanna Birdsall, a recent graduate from Brigham Young University with a degree in Public Relations. My time at BYU has honed my skills in communication and relationship building, preparing me for a dynamic career in the field.
+            Hi, I'm Savanna Birdsall. I recently graduated from Brigham Young University with a BA in Communications, and an emphasis in Public Relations. At BYU, I've learned skills in Research and Evaluation, Strategic Planning and Communication Tactics.
           </p>
           <p>
-            Outside of academics, I'm deeply passionate about singing, dancing, and reading. Music and movement are my creative outlets, allowing me to express myself freely, while books offer me endless opportunities for learning and exploration. I thrive on new experiences and connections, always seeking to grow and embrace the richness of life.
+            I've also had the opportunity to work hands-on with clients, to gain intel on the public view of their company.
+          </p>
+          <p>
+            Passionate about singing, dancing, and spending time with my family, I appreciate chances to genuinely connect with other people.
           </p>
         </div>
 
