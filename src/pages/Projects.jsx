@@ -32,21 +32,20 @@ const Projects = () => {
         <div className='projects-container'>
           {selectedCategory === 'research' && (
             <div>
-              <div className="project" id='proj-one'>
-                <h3 className='project-name'>Muck Rack Project</h3>
+              <div className="project">
+                <h3 className='project-name'>SEMrush Project</h3>
                 <div className='center project-image-wrapper'>
-                  <img className='project-image' src={muckrack_image} alt='project-image'></img>
+                  <img className='project-image' src={semrush_image} alt='project-image'></img>
                 </div>
                 <div className='gray-text-container proj-paragraph'>
-                  <p>In this project, I analyzed MuckRack data on mindfulness and meditation to determine 5 reporters I would reach out to if I worked for a company centered on meditation. I then created an event the company would sponsor, in order to meet the reporters, and give them an opportunity to learn about our company for future opportunities.</p>
+                  <p>Through this project, I used SEMrush to analyze Our Family Wizard's backlinks and keywords. I compared those with the most effective keywords related to Our Family Wizard's work, and offered suggestions to help Our Family Wizard's Search Engine Optimization. This would increase the public awareness of the company, and help the publics understand the resource OFW offers.</p>
                 </div>
                 <div className='center'>
                   <div className='gray-container project-links'>
-                    <a className='link' href="https://docs.google.com/presentation/d/1_OfPVtXQkIWpz5Z645flbXtlel1qA4Em/edit?usp=sharing&ouid=103382045392221082977&rtpof=true&sd=true" target="_blank">View Project</a>
+                    <a className='link' href="https://docs.google.com/presentation/d/1KBGOkQSZ_0jaO96GKVCwiSI7239XXATJ/edit?usp=sharing&ouid=103382045392221082977&rtpof=true&sd=true" target="_blank">View Project</a>
                   </div>
                 </div>
               </div>
-              {/* Add more research projects here */}
               <div className="project">
                 <h3 className='project-name'>Melt Water Project</h3>
                 <div className='center project-image-wrapper'>
@@ -61,17 +60,17 @@ const Projects = () => {
                   </div>
                 </div>
               </div>
-              <div className="project">
-                <h3 className='project-name'>SEMrush Project</h3>
+              <div className="project" id='proj-one'>
+                <h3 className='project-name'>Muck Rack Project</h3>
                 <div className='center project-image-wrapper'>
-                  <img className='project-image' src={semrush_image} alt='project-image'></img>
+                  <img className='project-image' src={muckrack_image} alt='project-image'></img>
                 </div>
                 <div className='gray-text-container proj-paragraph'>
-                  <p>Through this project, I used SEMrush to analyze Our Family Wizard's backlinks and keywords. I compared those with the most effective keywords related to Our Family Wizard's work, and offered suggestions to help Our Family Wizard's Search Engine Optimization. This would increase the public awareness of the company, and help the publics understand the resource OFW offers.</p>
+                  <p>In this project, I analyzed MuckRack data on mindfulness and meditation to determine 5 reporters I would reach out to if I worked for a company centered on meditation. I then created an event the company would sponsor, in order to meet the reporters, and give them an opportunity to learn about our company for future opportunities.</p>
                 </div>
                 <div className='center'>
                   <div className='gray-container project-links'>
-                    <a className='link' href="https://docs.google.com/presentation/d/1KBGOkQSZ_0jaO96GKVCwiSI7239XXATJ/edit?usp=sharing&ouid=103382045392221082977&rtpof=true&sd=true" target="_blank">View Project</a>
+                    <a className='link' href="https://docs.google.com/presentation/d/1_OfPVtXQkIWpz5Z645flbXtlel1qA4Em/edit?usp=sharing&ouid=103382045392221082977&rtpof=true&sd=true" target="_blank">View Project</a>
                   </div>
                 </div>
               </div>
