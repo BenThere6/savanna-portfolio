@@ -113,7 +113,7 @@ const Projects = () => {
                 <div className='center project-image-wrapper'>
                   <img className='project-image' src={news_release_image} alt='project-image'></img>
                 </div>
-                <div>Picture credit: Deseret News</div>
+                <div>Picture credit: The Daily Universe</div>
                 <div className='gray-text-container proj-paragraph'>
                   <p>In this project, I wrote from the perspective of BYU's Public Relations Team, offering a news release to help students anticipate Freeman Habrowski coming to speak to BYU students in February 2024.</p>
                 </div>
