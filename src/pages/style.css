@@ -90,7 +90,10 @@ h3 {
 }
 
 h4 {
-    font-size: 20px;
+    font-size: 25px;
+    text-decoration: underline;
+    /* padding-left: 15px; */
+    margin-bottom: 10px;
 }
 
 p {
@@ -100,14 +103,14 @@ p {
     color: var(--paragraph);
 }
 
-ul {
+.nav-ul {
     display: flex;
     justify-content: space-around;
     list-style: none;
     padding: 0;
 }
 
-li {
+.nav-li {
     padding-left: 7px;
     padding-right: 7px;
     border-radius: 10px;
@@ -230,6 +233,12 @@ a {
 #resume-title, #ethical-statement-title {
     top: 40px;
     margin-bottom: 0;
+}
+
+.resume-job-title {
+    font-weight:1000;
+    font-size: 19px;
+    padding-top: 10px;
 }
 
 form {

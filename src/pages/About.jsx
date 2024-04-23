@@ -21,7 +21,7 @@ const About = () => {
             I've also had the opportunity to work hands-on with clients, to gain intel on the public view of their company.
           </p>
           <p>
-            Passionate about singing, dancing, and spending time with my family, I appreciate chances to genuinely connect with other people.
+            I'm passionate about singing, dancing, and spending time with my family, I appreciate chances to genuinely connect with other people.
           </p>
         </div>
 
@@ -35,27 +35,85 @@ const About = () => {
           <h4>
             Education
           </h4>
-          <p>
-            This is the education
-          </p>
+          <div>
+            <div>
+              Bachelor of Arts in Public Relations
+            </div>
+            <div>
+              Brigham Young University
+            </div>
+            <div>Expected Graduation - 2025</div>
+          </div>
           <h4>
             Work Experience
           </h4>
-          <p>
-            This is the work experience
-          </p>
+          <div>
+            <div className='resume-job-title'>
+              Life Coach for Teens, Elevations RTC
+            </div>
+            <div>
+              Syracuse, UT | June 2023 - Sept 2023
+            </div>
+            <ul>
+              <li>Conducted one-on-one mentoring sessions to guide and support teenagers' healing</li>
+              <li>Cultivated effective communication skills, fostering open dialogue to guide the teens towards healthy decisions</li>
+              <li>Encouraged rule adherence to promote mutual respect and growth, maintaining safety for all students</li>
+            </ul>
+          </div>
+          <div>
+            <div className='resume-job-title'>
+              Resident Assistant, Brigham Young University
+            </div>
+            <div>
+              Provo, UT | Aug 2022 - May 2023
+            </div>
+            <ul>
+              <li>Recognized as RA of the Year for 2023</li>
+              <li>Mentored 43 students, promoting personal growth, academic success, and community engagement</li>
+              <li>Designed and implemented educational programs focusing on time management, nutrition, communication, emotional health, and educational success</li>
+            </ul>
+          </div>
+          <div>
+            <div className='resume-job-title'>
+              Quality Control Specialist, UST Pharmaceutical Manufacturing
+            </div>
+            <div>
+              Layton, UT | January 2022 - Aug 2022
+            </div>
+            <ul>
+              <li>Assigned and conducted laboratory tests on samples to ensure product safety and quality standards</li>
+              <li>Played a pivotal role in enhancing company profitability by diligently generating Certificates of Analysis, certifying that all laboratory tests were performed within safe and regulatory specifications</li>
+            </ul>
+          </div>
+          <div>
+            <div className='resume-job-title'>
+              Warehouse Associate, Amazon Fulfillment Center
+            </div>
+            <div>
+              Salt Lake City, UT | April 2020 - May 2020
+            </div>
+            <ul>
+              <li>Maintained a high level of accuracy while verifying, scanning, and tracking incoming and outgoing merchandise</li>
+              <li>Organized merchandise efficiently to optimize the shipping process</li>
+            </ul>
+          </div>
           <h4>
             Skills
           </h4>
-          <p>
-            This is the skill section
-          </p>
+          <div>
+            <ul>
+              <li>Excellent interpersonal and communication skills</li>
+              <li>Strong organizational and time management abilities</li>
+              <li>Problem-solving and conflict resolution skills</li>
+              <li>Attention to detail and accuracy</li>
+            </ul>
+          </div>
           <h4>
             Certifications
           </h4>
-          <p>
+          <div>
             This is the certifications section
-          </p>
+          </div>
         </div>
       </div>
     </div>
