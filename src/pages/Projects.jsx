@@ -24,8 +24,13 @@ const Projects = () => {
         <div className='projects-container'>
           <div className='center'>
             <div className='category-buttons gray-text-container'>
-              <button onClick={() => handleCategoryChange('research')} className='category-button cat-but-1'>Research and Evaluation</button>
-              <button onClick={() => handleCategoryChange('writing')} className='category-button'>Writing Tactics</button>
+              <button
+                onClick={() => handleCategoryChange('research')}
+                className={`category-button cat-but-1 ${selectedCategory === 'research' ? 'selected' : ''}`}
+              >
+                Research and Evaluation
+              </button>
+              <button onClick={() => handleCategoryChange('writing')} className={`category-button ${selectedCategory === 'writing' ? 'selected' : ''}`}>Writing Tactics</button>
             </div>
           </div>
           {selectedCategory === 'research' && (

@@ -301,11 +301,24 @@ form {
     font-family: var(--font-two);
     font-size: 15px;
     padding-top: 5px;
-    color: var(--paragraph)
+    color: var(--paragraph);
+    cursor: pointer; /* Add cursor pointer to indicate interactivity */
+    border-radius: 20px;
+    transition: all .2s ease-in-out;
+}
+
+/* Style for hovered category button */
+.category-button:hover {
+    background-color: rgba(133, 159, 168, .3); /* Change background color on hover */
 }
 
 .cat-but-1 {
-    padding-right: 25px;
+    margin-right: 20px;
+}
+
+/* Style for selected category button */
+.category-button.selected {
+    background-color: rgba(133, 159, 168, .6); /* Change background color for selected button */
 }
 
 .project-image {
