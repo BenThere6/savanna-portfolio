@@ -57,7 +57,7 @@ const Projects = () => {
           </div>
 
           <div className="project">
-            <h3 className='project-name'>Semrush Project</h3>
+            <h3 className='project-name'>SEMrush Project</h3>
             <div className='center'>
               <img className='project-image' src={template_image} alt='project-image'></img>
             </div>
@@ -78,13 +78,15 @@ const Projects = () => {
             </div>
           </div>
 
+          {/* Writing Tactics Projects */}
+
           <div className="project">
-            <h3 className='project-name'>Habit Tracker</h3>
+            <h3 className='project-name'>Op Ed: The Perfect Lie </h3>
             <div className='center'>
               <img className='project-image' src={template_image} alt='project-image'></img>
             </div>
             <div className='gray-text-container proj-paragraph'>
-              <p>In this project, I analyzed MuckRack data on mindfulness and meditation to determine 5 reporters I would reach out to if I worked for a company centered on meditation. I then created an event the company would sponsor, in order to meet the reporters, and give them an opportunity to learn about our company for future opportunities.</p>
+              <p>This is a challenge to perfectionism, and the mindsets that poison us over time. In this Op Ed, I help people recognize perfectionistic tendencies. I also offer simple steps to help those who struggle with perfectionism begin to heal. Many people think it's all-or-nothing. But what could a little step here, a little step there accomplish over the long run?</p>
             </div>
             {/* <div className='icons'>
               <div className='icons-container'>
@@ -95,7 +97,51 @@ const Projects = () => {
             </div> */}
             <div className='center'>
               <div className='gray-container project-links'>
-                <a className='link' href="https://fierce-tor-16803-290b9f9ab8e3.herokuapp.com" target="_blank">View Project</a>
+                <a className='link' href="https://docs.google.com/document/d/1Ldoa2crIO7Lwbbru28ewRQfYSs1IS9q_N6vVJt5MstA/edit?usp=sharing" target="_blank">View Project</a>
+              </div>
+            </div>
+          </div>
+
+          <div className="project">
+            <h3 className='project-name'>Feature Story: Sued and Sales Doubled: A PR victory</h3>
+            <div className='center'>
+              <img className='project-image' src={template_image} alt='project-image'></img>
+            </div>
+            <div className='gray-text-container proj-paragraph'>
+              <p>In this piece, I explore the story of how a brand new business was sued by a major cookie corporation, and used it to double sales.</p>
+            </div>
+            {/* <div className='icons'>
+              <div className='icons-container'>
+                <img className='icon gray-container' src={nodejs_icon} alt='technology-icon' title='Node JS'></img>
+                <img className='icon gray-container' src={handlebars_icon} alt='technology-icon' title='Handlebars JS'></img>
+                <img className='icon gray-container' src={mysql_icon} alt='technology-icon' title='MySQL'></img>
+              </div>
+            </div> */}
+            <div className='center'>
+              <div className='gray-container project-links'>
+                <a className='link' href="https://docs.google.com/document/d/1IcwMUNXiyZPqrUkmvexK8oe1ABdxrywixAy9dqmRaWg/edit?usp=sharing" target="_blank">View Project</a>
+              </div>
+            </div>
+          </div>
+
+          <div className="project">
+            <h3 className='project-name'>News Release: Freeman Habrowski speaks at BYU</h3>
+            <div className='center'>
+              <img className='project-image' src={template_image} alt='project-image'></img>
+            </div>
+            <div className='gray-text-container proj-paragraph'>
+              <p>In this project, I wrote from the perspective of BYU's Public Relations Team, offering a news release to help students anticipate Freeman Habrowski coming to speak to BYU students in February 2024.</p>
+            </div>
+            {/* <div className='icons'>
+              <div className='icons-container'>
+                <img className='icon gray-container' src={nodejs_icon} alt='technology-icon' title='Node JS'></img>
+                <img className='icon gray-container' src={handlebars_icon} alt='technology-icon' title='Handlebars JS'></img>
+                <img className='icon gray-container' src={mysql_icon} alt='technology-icon' title='MySQL'></img>
+              </div>
+            </div> */}
+            <div className='center'>
+              <div className='gray-container project-links'>
+                <a className='link' href="https://docs.google.com/document/d/1_fxOxmXp6sKk2xHEzrq-ZLZwauqsnFeR0wS-zi7OiXc/edit?usp=sharing" target="_blank">View Project</a>
               </div>
             </div>
           </div>
