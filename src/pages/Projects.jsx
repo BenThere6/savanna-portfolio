@@ -21,18 +21,15 @@ const Projects = () => {
           <h2 className='white-fade-background'>My Projects</h2>
         </div>
         <Nav />
-        <div className='projects-container'>
-          <div className='center'>
-            <div className='category-buttons gray-text-container'>
-              <button
-                onClick={() => handleCategoryChange('research')}
-                className={`category-button cat-but-1 ${selectedCategory === 'research' ? 'selected' : ''}`}
-              >
-                Research and Evaluation
-              </button>
-              <button onClick={() => handleCategoryChange('writing')} className={`category-button ${selectedCategory === 'writing' ? 'selected' : ''}`}>Writing Tactics</button>
-            </div>
+        
+        <div className='center'>
+          <div className='category-buttons gray-text-container'>
+            <button onClick={() => handleCategoryChange('research')} className={`category-button cat-but-1 ${selectedCategory === 'research' ? 'selected' : ''}`}>Research and Evaluation</button>
+            <button onClick={() => handleCategoryChange('writing')} className={`category-button ${selectedCategory === 'writing' ? 'selected' : ''}`}>Writing Tactics</button>
           </div>
+        </div>
+
+        <div className='projects-container'>
           {selectedCategory === 'research' && (
             <div>
               <div className="project" id='proj-one'>
