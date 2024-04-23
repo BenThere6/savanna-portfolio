@@ -496,6 +496,10 @@ footer {
     #my-name {
         font-size: 60px;
     }
+
+    .category-button {
+        font-size: 15px;
+    }
 }
 
 @media (max-width:410px) {
@@ -539,5 +543,9 @@ footer {
     
     #my-name {
         font-size: 40px;
+    }
+
+    .category-button {
+        font-size: 13px;
     }
 }
