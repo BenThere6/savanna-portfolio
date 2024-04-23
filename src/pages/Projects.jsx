@@ -5,7 +5,7 @@ import meltwater_image from '../assets/Meltwater-image.png';
 import semrush_image from '../assets/SEMrush-image.png';
 import oped_image from '../assets/oped-image.png';
 import feature_story_image from '../assets/feature-story-image.png';
-import news_release_image from '../assets/news-release-image.png';
+import news_release_image from '../assets/hrabowski-image.jpeg';
 
 const Projects = () => {
   const [selectedCategory, setSelectedCategory] = useState('research');
