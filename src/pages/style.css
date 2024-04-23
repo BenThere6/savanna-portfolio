@@ -204,6 +204,7 @@ a {
     display: flex;
     flex-direction: column;
     align-items: center;
+    max-width: 800px;
 }
 
 .p-container {
@@ -322,11 +323,8 @@ form {
 }
 
 .project-image {
-    height: 420px;
-    width: 100%;
-    max-width: 90vw;
-    object-fit: cover;
-    object-position: center;
+    max-width: 100%; /* Ensure the image doesn't exceed its container's width */
+    height: auto; /* Maintain aspect ratio */
     border-radius: 10px;
     border: var(--border-color) 1px solid;
     box-sizing: border-box;
@@ -335,16 +333,15 @@ form {
 .project-image-wrapper {
     width: 100%;
     position: relative;
-    padding-top: 60%;
+    display: flex;
+    justify-content: center; /* Center the image horizontally */
+    align-items: center; /* Center the image vertically */
 }
 
 .project-image-wrapper img {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+    max-width: 100%; /* Ensure the image doesn't exceed its container's width */
+    max-height: 100%; /* Ensure the image doesn't exceed its container's height */
+    object-fit: contain; /* Fit the image inside the container while preserving aspect ratio */
 }
 
 .project-links {
