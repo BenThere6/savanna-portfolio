@@ -113,6 +113,7 @@ const Projects = () => {
             <div className='center project-image-wrapper'>
               <img className='project-image' src={feature_story_image} alt='project-image'></img>
             </div>
+            <div>Picture credit: Fox 13</div>
             <div className='gray-text-container proj-paragraph'>
               <p>In this piece, I explore the story of how a brand new business was sued by a major cookie corporation, and used it to double sales.</p>
             </div>
@@ -135,6 +136,7 @@ const Projects = () => {
             <div className='center project-image-wrapper'>
               <img className='project-image' src={news_release_image} alt='project-image'></img>
             </div>
+            <div>Picture credit: Deseret News</div>
             <div className='gray-text-container proj-paragraph'>
               <p>In this project, I wrote from the perspective of BYU's Public Relations Team, offering a news release to help students anticipate Freeman Habrowski coming to speak to BYU students in February 2024.</p>
             </div>
