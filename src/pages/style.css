@@ -236,6 +236,11 @@ a {
     left: -20px;
 }
 
+.statement-link {
+    width: 200px;
+    border: var(--border-color) 1px solid;
+}
+
 #resume-title,
 #ethical-statement-title {
     top: 40px;
