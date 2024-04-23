@@ -113,8 +113,8 @@ const About = () => {
           </h4>
           <div>
             <ul>
-              <li>Meltwater</li>
-              <li>Muchrack</li>
+              <li>here</li>
+              <li>and here</li>
             </ul>
           </div>
         </div>
