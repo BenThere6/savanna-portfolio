@@ -13,14 +13,78 @@ const Projects = () => {
         <div className='projects-container'>
 
           <div className="project" id='proj-one'>
+            <h3 className='project-name'>Muck Rack Project</h3>
+            <div className='center'>
+              <img className='project-image' src={template_image} alt='project-image'></img>
+            </div>
+            <div className='gray-text-container proj-paragraph'>
+              <p>In this project, I analyzed MuckRack data on mindfulness and meditation to determine 5 reporters I would reach out to if I worked for a company centered on meditation. I then created an event the company would sponsor, in order to meet the reporters, and give them an opportunity to learn about our company for future opportunities.</p>
+            </div>
+            {/* <div className='icons'>
+              <div className='icons-container'>
+                <img className='icon gray-container' src={nodejs_icon} alt='technology-icon' title='Node JS'></img>
+                <img className='icon gray-container' src={handlebars_icon} alt='technology-icon' title='Handlebars JS'></img>
+                <img className='icon gray-container' src={mysql_icon} alt='technology-icon' title='MySQL'></img>
+              </div>
+            </div> */}
+            <div className='center'>
+              <div className='gray-container project-links'>
+                <a className='link' href="https://docs.google.com/presentation/d/1_OfPVtXQkIWpz5Z645flbXtlel1qA4Em/edit?usp=sharing&ouid=103382045392221082977&rtpof=true&sd=true" target="_blank">View Project</a>
+              </div>
+            </div>
+          </div>
+
+          <div className="project">
+            <h3 className='project-name'>Melt Water Project</h3>
+            <div className='center'>
+              <img className='project-image' src={template_image} alt='project-image'></img>
+            </div>
+            <div className='gray-text-container proj-paragraph'>
+              <p>In this project, I acted in the Role of Our Family Wizard, a company that facilitates co-parenting communication among separated parents. Through my research, I learned what time of year OFW receives the most coverage. I learned that its overall sentiment is neutral, and I learned which major outlets cover it most. As a PR representative, I can use this information to help the company strategically plan ways to communicate with their publics in order to reach KPI's.</p>
+            </div>
+            {/* <div className='icons'>
+              <div className='icons-container'>
+                <img className='icon gray-container' src={nodejs_icon} alt='technology-icon' title='Node JS'></img>
+                <img className='icon gray-container' src={handlebars_icon} alt='technology-icon' title='Handlebars JS'></img>
+                <img className='icon gray-container' src={mysql_icon} alt='technology-icon' title='MySQL'></img>
+              </div>
+            </div> */}
+            <div className='center'>
+              <div className='gray-container project-links'>
+                <a className='link' href="https://docs.google.com/presentation/d/1uypgfdEVJqPz6j_hlMnSaW18Tubva82V/edit?usp=sharing&ouid=103382045392221082977&rtpof=true&sd=true" target="_blank">View Project</a>
+              </div>
+            </div>
+          </div>
+
+          <div className="project">
+            <h3 className='project-name'>Semrush Project</h3>
+            <div className='center'>
+              <img className='project-image' src={template_image} alt='project-image'></img>
+            </div>
+            <div className='gray-text-container proj-paragraph'>
+              <p>Through this project, I used SEMrush to analyze Our Family Wizard's backlinks and keywords. I compared those with the most effective keywords related to Our Family Wizard's work, and offered suggestions to help Our Family Wizard's Search Engine Optimization. This would increase the public awareness of the company, and help the publics understand the resource OFW offers.</p>
+            </div>
+            {/* <div className='icons'>
+              <div className='icons-container'>
+                <img className='icon gray-container' src={nodejs_icon} alt='technology-icon' title='Node JS'></img>
+                <img className='icon gray-container' src={handlebars_icon} alt='technology-icon' title='Handlebars JS'></img>
+                <img className='icon gray-container' src={mysql_icon} alt='technology-icon' title='MySQL'></img>
+              </div>
+            </div> */}
+            <div className='center'>
+              <div className='gray-container project-links'>
+                <a className='link' href="https://docs.google.com/presentation/d/1KBGOkQSZ_0jaO96GKVCwiSI7239XXATJ/edit?usp=sharing&ouid=103382045392221082977&rtpof=true&sd=true" target="_blank">View Project</a>
+              </div>
+            </div>
+          </div>
+
+          <div className="project">
             <h3 className='project-name'>Habit Tracker</h3>
             <div className='center'>
               <img className='project-image' src={template_image} alt='project-image'></img>
             </div>
             <div className='gray-text-container proj-paragraph'>
-              <p>This application is crafted to assist users in overcoming detrimental habits while fostering beneficial ones. It tracks and displays data about ongoing streaks or the most recent occurrence of a particular habit.</p>
-              <p>Additionally, it offers a personalized journal feature, enabling users to document their experiences and progress related to their habits. In their journal entries, users have the option to link to any of their habits for more contextual insights.</p>
-              <p>Developed using Node.js and Express.js for the backend, Handlebars for templating, and MySQL for database management, this app integrates robust technologies to ensure a smooth user experience.</p>
+              <p>In this project, I analyzed MuckRack data on mindfulness and meditation to determine 5 reporters I would reach out to if I worked for a company centered on meditation. I then created an event the company would sponsor, in order to meet the reporters, and give them an opportunity to learn about our company for future opportunities.</p>
             </div>
             {/* <div className='icons'>
               <div className='icons-container'>
@@ -32,111 +96,9 @@ const Projects = () => {
             <div className='center'>
               <div className='gray-container project-links'>
                 <a className='link' href="https://fierce-tor-16803-290b9f9ab8e3.herokuapp.com" target="_blank">View Project</a>
-                <a className='link' href="https://github.com/BenThere6/habit-tracker" target="_blank">View Repository</a>
               </div>
             </div>
           </div>
-
-          <div className="project" id='proj-one'>
-            <h3 className='project-name'>Habit Tracker</h3>
-            <div className='center'>
-              <img className='project-image' src={template_image} alt='project-image'></img>
-            </div>
-            <div className='gray-text-container proj-paragraph'>
-              <p>This application is crafted to assist users in overcoming detrimental habits while fostering beneficial ones. It tracks and displays data about ongoing streaks or the most recent occurrence of a particular habit.</p>
-              <p>Additionally, it offers a personalized journal feature, enabling users to document their experiences and progress related to their habits. In their journal entries, users have the option to link to any of their habits for more contextual insights.</p>
-              <p>Developed using Node.js and Express.js for the backend, Handlebars for templating, and MySQL for database management, this app integrates robust technologies to ensure a smooth user experience.</p>
-            </div>
-            {/* <div className='icons'>
-              <div className='icons-container'>
-                <img className='icon gray-container' src={nodejs_icon} alt='technology-icon' title='Node JS'></img>
-                <img className='icon gray-container' src={handlebars_icon} alt='technology-icon' title='Handlebars JS'></img>
-                <img className='icon gray-container' src={mysql_icon} alt='technology-icon' title='MySQL'></img>
-              </div>
-            </div> */}
-            <div className='center'>
-              <div className='gray-container project-links'>
-                <a className='link' href="https://fierce-tor-16803-290b9f9ab8e3.herokuapp.com" target="_blank">View Project</a>
-                <a className='link' href="https://github.com/BenThere6/habit-tracker" target="_blank">View Repository</a>
-              </div>
-            </div>
-          </div>
-
-          <div className="project" id='proj-one'>
-            <h3 className='project-name'>Habit Tracker</h3>
-            <div className='center'>
-              <img className='project-image' src={template_image} alt='project-image'></img>
-            </div>
-            <div className='gray-text-container proj-paragraph'>
-              <p>This application is crafted to assist users in overcoming detrimental habits while fostering beneficial ones. It tracks and displays data about ongoing streaks or the most recent occurrence of a particular habit.</p>
-              <p>Additionally, it offers a personalized journal feature, enabling users to document their experiences and progress related to their habits. In their journal entries, users have the option to link to any of their habits for more contextual insights.</p>
-              <p>Developed using Node.js and Express.js for the backend, Handlebars for templating, and MySQL for database management, this app integrates robust technologies to ensure a smooth user experience.</p>
-            </div>
-            {/* <div className='icons'>
-              <div className='icons-container'>
-                <img className='icon gray-container' src={nodejs_icon} alt='technology-icon' title='Node JS'></img>
-                <img className='icon gray-container' src={handlebars_icon} alt='technology-icon' title='Handlebars JS'></img>
-                <img className='icon gray-container' src={mysql_icon} alt='technology-icon' title='MySQL'></img>
-              </div>
-            </div> */}
-            <div className='center'>
-              <div className='gray-container project-links'>
-                <a className='link' href="https://fierce-tor-16803-290b9f9ab8e3.herokuapp.com" target="_blank">View Project</a>
-                <a className='link' href="https://github.com/BenThere6/habit-tracker" target="_blank">View Repository</a>
-              </div>
-            </div>
-          </div>
-
-          <div className="project" id='proj-one'>
-            <h3 className='project-name'>Habit Tracker</h3>
-            <div className='center'>
-              <img className='project-image' src={template_image} alt='project-image'></img>
-            </div>
-            <div className='gray-text-container proj-paragraph'>
-              <p>This application is crafted to assist users in overcoming detrimental habits while fostering beneficial ones. It tracks and displays data about ongoing streaks or the most recent occurrence of a particular habit.</p>
-              <p>Additionally, it offers a personalized journal feature, enabling users to document their experiences and progress related to their habits. In their journal entries, users have the option to link to any of their habits for more contextual insights.</p>
-              <p>Developed using Node.js and Express.js for the backend, Handlebars for templating, and MySQL for database management, this app integrates robust technologies to ensure a smooth user experience.</p>
-            </div>
-            {/* <div className='icons'>
-              <div className='icons-container'>
-                <img className='icon gray-container' src={nodejs_icon} alt='technology-icon' title='Node JS'></img>
-                <img className='icon gray-container' src={handlebars_icon} alt='technology-icon' title='Handlebars JS'></img>
-                <img className='icon gray-container' src={mysql_icon} alt='technology-icon' title='MySQL'></img>
-              </div>
-            </div> */}
-            <div className='center'>
-              <div className='gray-container project-links'>
-                <a className='link' href="https://fierce-tor-16803-290b9f9ab8e3.herokuapp.com" target="_blank">View Project</a>
-                <a className='link' href="https://github.com/BenThere6/habit-tracker" target="_blank">View Repository</a>
-              </div>
-            </div>
-          </div>
-
-          <div className="project" id='proj-one'>
-            <h3 className='project-name'>Habit Tracker</h3>
-            <div className='center'>
-              <img className='project-image' src={template_image} alt='project-image'></img>
-            </div>
-            <div className='gray-text-container proj-paragraph'>
-              <p>This application is crafted to assist users in overcoming detrimental habits while fostering beneficial ones. It tracks and displays data about ongoing streaks or the most recent occurrence of a particular habit.</p>
-              <p>Additionally, it offers a personalized journal feature, enabling users to document their experiences and progress related to their habits. In their journal entries, users have the option to link to any of their habits for more contextual insights.</p>
-              <p>Developed using Node.js and Express.js for the backend, Handlebars for templating, and MySQL for database management, this app integrates robust technologies to ensure a smooth user experience.</p>
-            </div>
-            {/* <div className='icons'>
-              <div className='icons-container'>
-                <img className='icon gray-container' src={nodejs_icon} alt='technology-icon' title='Node JS'></img>
-                <img className='icon gray-container' src={handlebars_icon} alt='technology-icon' title='Handlebars JS'></img>
-                <img className='icon gray-container' src={mysql_icon} alt='technology-icon' title='MySQL'></img>
-              </div>
-            </div> */}
-            <div className='center'>
-              <div className='gray-container project-links'>
-                <a className='link' href="https://fierce-tor-16803-290b9f9ab8e3.herokuapp.com" target="_blank">View Project</a>
-                <a className='link' href="https://github.com/BenThere6/habit-tracker" target="_blank">View Repository</a>
-              </div>
-            </div>
-          </div>
-
 
         </div>
       </div>
