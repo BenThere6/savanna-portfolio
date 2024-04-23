@@ -112,7 +112,10 @@ const About = () => {
             Certifications
           </h4>
           <div>
-            This is the certifications section
+            <ul>
+              <li>Meltwater</li>
+              <li>Muchrack</li>
+            </ul>
           </div>
         </div>
       </div>
