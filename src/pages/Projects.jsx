@@ -20,7 +20,7 @@ const Projects = () => {
 
           <div className="project" id='proj-one'>
             <h3 className='project-name'>Muck Rack Project</h3>
-            <div className='center'>
+            <div className='center project-image-wrapper'>
               <img className='project-image' src={muckrack_image} alt='project-image'></img>
             </div>
             <div className='gray-text-container proj-paragraph'>
@@ -42,7 +42,7 @@ const Projects = () => {
 
           <div className="project">
             <h3 className='project-name'>Melt Water Project</h3>
-            <div className='center'>
+            <div className='center project-image-wrapper'>
               <img className='project-image' src={meltwater_image} alt='project-image'></img>
             </div>
             <div className='gray-text-container proj-paragraph'>
@@ -64,7 +64,7 @@ const Projects = () => {
 
           <div className="project">
             <h3 className='project-name'>SEMrush Project</h3>
-            <div className='center'>
+            <div className='center project-image-wrapper'>
               <img className='project-image' src={semrush_image} alt='project-image'></img>
             </div>
             <div className='gray-text-container proj-paragraph'>
@@ -88,7 +88,7 @@ const Projects = () => {
 
           <div className="project">
             <h3 className='project-name'>Op Ed: The Perfect Lie </h3>
-            <div className='center'>
+            <div className='center project-image-wrapper'>
               <img className='project-image' src={oped_image} alt='project-image'></img>
             </div>
             <div className='gray-text-container proj-paragraph'>
@@ -110,7 +110,7 @@ const Projects = () => {
 
           <div className="project">
             <h3 className='project-name'>Feature Story: Sued and Sales Doubled: A PR victory</h3>
-            <div className='center'>
+            <div className='center project-image-wrapper'>
               <img className='project-image' src={feature_story_image} alt='project-image'></img>
             </div>
             <div className='gray-text-container proj-paragraph'>
@@ -132,7 +132,7 @@ const Projects = () => {
 
           <div className="project">
             <h3 className='project-name'>News Release: Freeman Habrowski speaks at BYU</h3>
-            <div className='center'>
+            <div className='center project-image-wrapper'>
               <img className='project-image' src={news_release_image} alt='project-image'></img>
             </div>
             <div className='gray-text-container proj-paragraph'>
