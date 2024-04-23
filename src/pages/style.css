@@ -254,6 +254,21 @@ a {
     padding-top: 10px;
 }
 
+.cert-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.cert-image {
+    height: 200px;
+    padding-top: 5px;
+}
+
+#tall-cert-container {
+    width: 270px;
+}
+
 form {
     display: flex;
     flex-direction: column;

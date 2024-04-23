@@ -1,6 +1,12 @@
 import React from 'react';
 import Nav from '../components/Nav';
 import headshot from '../assets/savanna-headshot.jpg';
+import cert_1 from '../assets/certifications/fundamentals-of-media-relations.png';
+import cert_2 from '../assets/certifications/learning-youtube-analytics.png';
+import cert_3 from '../assets/certifications/learning-youtube-seo.png';
+import cert_4 from '../assets/certifications/marketing-on-youtube.png';
+import cert_5 from '../assets/certifications/media-monitoring.png';
+import cert_6 from '../assets/certifications/semrush-certificate.png';
 
 const About = () => {
   return (
@@ -114,11 +120,15 @@ const About = () => {
           <h4>
             Certifications
           </h4>
-          <div>
-            <ul>
-              <li>here</li>
-              <li>and here</li>
-            </ul>
+          <div className='cert-container'>
+            <img className='cert-image' src={cert_1} alt="Certification" />
+            <img className='cert-image' src={cert_2} alt="Certification" />
+            <img className='cert-image' src={cert_3} alt="Certification" />
+            <img className='cert-image' src={cert_4} alt="Certification" />
+            <img className='cert-image' src={cert_6} alt="Certification" />
+            <div id='tall-cert-container' className='center'>
+              <img className='cert-image' src={cert_5} alt="Certification" />
+            </div>
           </div>
         </div>
       </div>
