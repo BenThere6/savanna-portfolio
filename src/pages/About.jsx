@@ -7,17 +7,23 @@ import cert_3 from '../assets/certifications/learning-youtube-seo.png';
 import cert_4 from '../assets/certifications/marketing-on-youtube.png';
 import cert_5 from '../assets/certifications/media-monitoring.png';
 import cert_6 from '../assets/certifications/semrush-certificate.png';
+import './style.css';
 
 const About = () => {
   return (
     <div className="about page">
       <div className='page-content'>
-        <div>
+        {/* <div>
           <h2 className='white-fade-background'>About Me</h2>
-        </div>
+        </div> */}
         <Nav />
+        
         <div id="headshot-circle">
           <img id='headshot' src={headshot} alt="Photo of Ben Birdsall" />
+        </div>
+        <div>
+          <h2 id='my-name'>Savanna Birdsall</h2>
+          <h3 id='profession-title'>Public Relations Professional</h3>
         </div>
         <div className='p-container gray-text-container'>
           <p>
@@ -34,9 +40,9 @@ const About = () => {
         <h3 id='ethical-statement-title'>Personal Ethical Statement</h3>
         <div className='p-container gray-text-container'>
           <p>Growing up, I learned about ethics through my religion, personal experiences, and education. Central to my ethical compass is the principle of treating others with respect, fairness, and kindness, following the golden rule of doing unto others as you would have them do unto you. I believe in maintaining integrity and virtues like honesty, advocacy, and fairness in all aspects of life. Loyalty to oneself, humanity, and clients guides my actions, while ethical decision-making involves consulting my conscience, seeking expertise, and engaging in dialogue with others. Ultimately, I aim to live a life of integrity, continually striving to make ethical decisions rooted in principle and moral conviction.</p>
-          <div className='center'>
+          {/* <div className='center' id='statement-link-container'> */}
             <a className='link statement-link' href="https://docs.google.com/document/d/1swjJIXRU0hUnaZTAl_V97gMNSG8yBK23L3wKIrGjyME/edit?usp=sharing" target="_blank">View Full Statement</a>
-          </div>
+          {/* </div> */}
         </div>
 
         <h3 id='resume-title'>Resume</h3>

@@ -3,7 +3,6 @@ import { BrowserRouter, Routes, Route, Outlet } from 'react-router-dom';
 import Footer from './components/Footer';
 import About from './pages/About';
 import Contact from './pages/Contact';
-import Home from './pages/Home';
 import Projects from './pages/Projects';
 
 function Layout() {
@@ -22,7 +21,7 @@ function App() {
         <BrowserRouter>
             <Routes>
                 <Route path="/" element={<Layout />}>
-                    <Route index element={<Home />}/>
+                    <Route index element={<About />}/>
                     <Route path="about" element={<About />} />
                     <Route path="contact" element={<Contact />} />
                     <Route path="projects" element={<Projects />} />
