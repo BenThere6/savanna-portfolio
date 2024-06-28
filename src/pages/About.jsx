@@ -7,6 +7,7 @@ import cert_3 from '../assets/certifications/learning-youtube-seo.png';
 import cert_4 from '../assets/certifications/marketing-on-youtube.png';
 import cert_5 from '../assets/certifications/media-monitoring.png';
 import cert_6 from '../assets/certifications/semrush-certificate.png';
+import Button from '@mui/material/Button';
 import './style.css';
 
 const About = () => {
@@ -17,7 +18,7 @@ const About = () => {
           <h2 className='white-fade-background'>About Me</h2>
         </div> */}
         <Nav />
-        
+
         <div id="headshot-circle">
           <img id='headshot' src={headshot} alt="Photo of Ben Birdsall" />
         </div>
@@ -41,11 +42,12 @@ const About = () => {
         <div className='p-container gray-text-container'>
           <p>Growing up, I learned about ethics through my religion, personal experiences, and education. Central to my ethical compass is the principle of treating others with respect, fairness, and kindness, following the golden rule of doing unto others as you would have them do unto you. I believe in maintaining integrity and virtues like honesty, advocacy, and fairness in all aspects of life. Loyalty to oneself, humanity, and clients guides my actions, while ethical decision-making involves consulting my conscience, seeking expertise, and engaging in dialogue with others. Ultimately, I aim to live a life of integrity, continually striving to make ethical decisions rooted in principle and moral conviction.</p>
           {/* <div className='center' id='statement-link-container'> */}
-            <a className='link statement-link' href="/ethical-statement">View Full Statement</a>
+          <a className='link statement-link' href="/ethical-statement">View Full Statement</a>
           {/* </div> */}
         </div>
 
         <h3 id='resume-title'>Resume</h3>
+        <Button className='downloadResumeBtn' href="/SavannaBirdsallResume.pdf" variant="outlined" download>Download</Button>
         <div className='p-container gray-text-container'>
           <h4>
             Education

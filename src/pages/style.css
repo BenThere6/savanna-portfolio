@@ -222,6 +222,7 @@ a {
     flex-direction: column;
     align-items: center;
     max-width: 800px;
+    position: relative;
 }
 
 .p-container {
@@ -266,10 +267,22 @@ a {
     bottom: -13px;
 }
 
-#resume-title,
 #ethical-statement-title {
     top: 40px;
     margin-bottom: 0;
+}
+
+#resume-title {
+    top: 80px;
+    margin-bottom: 0;
+}
+
+.downloadResumeBtn {
+    margin-bottom:0;
+    top: 105px;
+    /* left: 150px; */
+    /* position: absolute; */
+    z-index: 100;
 }
 
 .resume-job-title {
