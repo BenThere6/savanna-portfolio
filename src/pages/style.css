@@ -2,7 +2,8 @@
     --font-one: 'Antonio';
     --font-two: 'Prata';
     /* --thru-black: rgba(44, 41, 54, 0.854); */
-    --thru-black: rgba(241, 221, 221, .9);
+    /* --thru-black: rgba(241, 221, 221, .9); */
+    --thru-black: rgb(17, 17, 42);
     --border-color: rgb(176, 175, 175);
 
     /* New colors */
@@ -15,7 +16,7 @@
     /* --footer: rgb(200, 170, 170); */
     --footer: white;
 
-    --see-through-white: rgba(255, 255, 255, .4);
+    --see-through-white: rgba(0, 0, 0, 0.4);
     /* --h3: rgb(170, 100, 120); */
     --h3: white;
 }
@@ -50,6 +51,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
 }
 
 h2 {
@@ -151,7 +153,7 @@ a {
 }
 
 .gray-text-container {
-    background-color: var(--see-through-white);
+    background-color: var(--thru-black);
     border: var(--border-color) 1px solid;
     border-radius: 20px;
     padding: 20px;
@@ -372,6 +374,8 @@ form {
     justify-content: space-around;
     align-items: center;
     margin-bottom: 20px;
+    position: relative;
+    bottom: 35px;
 }
 
 .project-name {
