@@ -1,18 +1,23 @@
 :root {
-    --font-one: 'Great Vibes';
-    --font-two: 'Indie Flower';
+    --font-one: 'Antonio';
+    --font-two: 'Prata';
     /* --thru-black: rgba(44, 41, 54, 0.854); */
     --thru-black: rgba(241, 221, 221, .9);
     --border-color: rgb(176, 175, 175);
 
     /* New colors */
-    --heading: rgb(170, 100, 120);
-    --heading-two: rgb(80, 90, 100);
-    --paragraph: rgb(80, 80, 80);
-    --footer: rgb(200, 170, 170);
+    /* --heading: rgb(170, 100, 120); */
+    --heading: white;
+    /* --heading-two: rgb(80, 90, 100); */
+    --heading-two: white;
+    /* --paragraph: rgb(80, 80, 80); */
+    --paragraph: white;
+    /* --footer: rgb(200, 170, 170); */
+    --footer: white;
 
     --see-through-white: rgba(255, 255, 255, .4);
-    --h3: rgb(170, 100, 120);
+    /* --h3: rgb(170, 100, 120); */
+    --h3: white;
 }
 
 *,
@@ -32,7 +37,7 @@ body {
 }
 
 body {
-    background-image: url(/hd-1.jpg);
+    background-color: rgb(17, 17, 42);
     background-size: cover;
     background-repeat: repeat;
     background-attachment: fixed;
@@ -177,11 +182,11 @@ a {
     align-items: center;
 }
 
-.white-fade-background {
+/* .white-fade-background {
     border-radius: 50%;
     width: 100%;
     background: radial-gradient(ellipse at center, white -20%, rgba(255, 255, 255, 0) 72%);
-}
+} */
 
 .layout-container {
     display: flex;
