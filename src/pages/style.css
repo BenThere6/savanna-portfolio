@@ -263,8 +263,8 @@ a {
     background-color: var(--thru-black);
     border: var(--border-color) 1px solid;
     position: absolute;
-    left: 37.5%;
-    bottom: -13px;
+    /* left: 37.5%; */
+    bottom: -34px;
 }
 
 #ethical-statement-title {
