@@ -74,6 +74,10 @@ h2 {
     margin-bottom: 10px;
 }
 
+#profession-title {
+    margin-bottom: 0;
+}
+
 #job-title {
     font-size: 25px;
 }
@@ -242,6 +246,7 @@ a {
     border-radius: 50%;
     overflow: hidden;
     position: relative;
+    margin-top: 60px;
 }
 
 #headshot {
