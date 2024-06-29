@@ -5,7 +5,7 @@ const PersonalEthicalStatement = () => {
     return (
         <div className="page-content">
             <Nav />
-            <div>
+            <div className='ethics-page'>
                 <h2 id='ethics-title'>Personal Ethical Statement</h2>
                 <h5>Introduction</h5>
                 <p>
