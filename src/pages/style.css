@@ -403,9 +403,9 @@ form {
     background-color: rgba(133, 159, 168, .3); /* Change background color on hover */
 }
 
-.cat-but-1 {
+/* .cat-but-1 {
     margin-right: 20px;
-}
+} */
 
 /* Style for selected category button */
 .category-button.selected {
@@ -596,7 +596,7 @@ footer {
     }
 
     .category-button {
-        font-size: 15px;
+        font-size: 13px;
     }
 }
 
