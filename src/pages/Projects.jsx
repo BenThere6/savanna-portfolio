@@ -125,7 +125,7 @@ const Projects = () => {
                 </div>
                 <div className='center'>
                   <div className='gray-container project-links'>
-                    <a className='link' href="https://docs.google.com/document/d/1_fxOxmXp6sKk2xHEzrq-ZLZwauqsnFeR0wS-zi7OiXc/edit?usp=sharing" target="_blank">View Project</a>
+                    <a className='link' href="/news-release">View Project</a>
                   </div>
                 </div>
               </div>
