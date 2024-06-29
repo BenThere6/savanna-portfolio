@@ -126,7 +126,7 @@ const PersonalEthicalStatement = () => {
                     Ultimately, it was wise and helpful of the Enquirer to report on this matter.
                 </p>
 
-                <h5>Works Cited</h5>
+                <h6>Works Cited</h6>
                 <ol className='worksCitedItems'>
                     <li>
                         Bok, Sissela. Lying: Moral Choice in Public and Private Life. Vintage. August 1999.

@@ -95,7 +95,7 @@ const Projects = () => {
                 </div>
                 <div className='center'>
                   <div className='gray-container project-links'>
-                    <a className='link' href="https://docs.google.com/document/d/1Ldoa2crIO7Lwbbru28ewRQfYSs1IS9q_N6vVJt5MstA/edit?usp=sharing" target="_blank">View Project</a>
+                    <a className='link' href="/the-perfect-lie">View Project</a>
                   </div>
                 </div>
               </div>

@@ -6,7 +6,7 @@ const ThePerfectLie = () => {
         <div className="page-content">
             <Nav />
             <div className='ethics-page'>
-                <h2 id='ethics-title'>Op Ed: The Perfect Lie</h2>
+                <h2 id='lie-title'>Op Ed: The Perfect Lie</h2>
                 <p>
                     I failed again. The list-the mental list- the end-all-be-all, of everything I should have accomplished that hot summer day, was barely dented. Shattered. Brocken. Failure. …Again.
                 </p>
@@ -103,13 +103,13 @@ const ThePerfectLie = () => {
                     The answer is baby-steps. Perfectionism thrives in absolutes, “either I exercise for an hour, or not at all.” “Either the party is flawless, or it’s a failure.” These absolutes thwart progress.
                 </p>
                 <p>
-                    -That’s where baby steps come in.  Rather than all-or-nothing, baby steps celebrate effort. What baby steps will you take to shift your mentality?
+                    That’s where baby steps come in.  Rather than all-or-nothing, baby steps celebrate effort. What baby steps will you take to shift your mentality?
                 </p>
                 <p>
                     Some ideas include:
                 </p>
                 <p>
-                    <span className='bold'>Shifting words</span>: any time you notice yourself saying “should/need/have to” shift the language to be more gentle: “I can/I will/It would be wise to.”
+                    <span className='bold'>Shifting words</span>: Any time you notice yourself saying “should/need/have to” shift the language to be more gentle: “I can/I will/It would be wise to.”
                 </p>
                 <p>
                     <span className='bold'>Celebrate success</span>: Each time you recognize a small victory (even if it was only part of what you wanted to achieve) congratulate yourself!
@@ -118,7 +118,7 @@ const ThePerfectLie = () => {
                     <span className='bold'>Affirmations</span>: “Even though I didn’t _______, I accept my effort”
                 </p>
                 <p>
-                    <span className='bold'>Affirmations</span>: Take one of your expectations and break it into smaller pieces. Even if it’s just part of what you want to achieve, you’ll find that you can eat an elephant one bite at a time.
+                    <span className='bold'>Set small goals</span>: Take one of your expectations and break it into smaller pieces. Even if it’s just part of what you want to achieve, you’ll find that you can eat an elephant one bite at a time.
                 </p>
                 <p>
                     <span className='bold'>Talk with a professional</span>: In certain cases, it’s wise to seek professional advice, to shift perfectionistic perspectives over time. Know that it’s okay to seek professional help, and that in time, you will heal.
@@ -133,21 +133,30 @@ const ThePerfectLie = () => {
                     Give yourself grace by doing this today and improve your self-acceptance. You’ll find that you are worth it.
                 </p>
 
-                <h5>Sources</h5>
-                <ul className='worksCitedItems'>
+                <h6>Sources</h6>
+                <div className='worksCitedItems'>
                     <li>
-                        Perfectionism study children: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7312165/#:~:text=Results%20showed%20that%2027.6%25%20of,scores%20in%20all%20perfectionism%20measures
+                        <a className='underline' href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7312165/#:~:text=Results%20showed%20that%2027.6%25%20of,scores%20in%20all%20perfectionism%20measures" target="_blank" rel="noopener noreferrer">
+                            Perfectionism study children
+                        </a>
                     </li>
                     <li>
-                        Psychology today: https://www.psychologytoday.com/us/basics/perfectionism
+                        <a className='underline' href="https://www.psychologytoday.com/us/basics/perfectionism" target="_blank" rel="noopener noreferrer">
+                            Psychology today
+                        </a>
                     </li>
                     <li>
-                        Toxic Perfectionism defined: master class https://www.masterclass.com/articles/toxic-perfectionism
+                        <a className='underline' href="https://www.masterclass.com/articles/toxic-perfectionism" target="_blank" rel="noopener noreferrer">
+                            Toxic Perfectionism defined: master class
+                        </a>
                     </li>
                     <li>
-                        National Library of medicine https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9819691/#:~:text=These%20studies%20state%20that%20people,catastrophe%20and%20to%20present%20suicidal
+                        <a className='underline' href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9819691/#:~:text=These%20studies%20state%20that%20people,catastrophe%20and%20to%20present%20suicidal" target="_blank" rel="noopener noreferrer">
+                            National Library of medicine
+                        </a>
                     </li>
-                </ul>
+                </div>
+
             </div>
         </div>
     );
