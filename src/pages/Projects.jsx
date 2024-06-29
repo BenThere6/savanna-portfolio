@@ -110,7 +110,7 @@ const Projects = () => {
                 </div>
                 <div className='center'>
                   <div className='gray-container project-links'>
-                    <a className='link' href="https://docs.google.com/document/d/1IcwMUNXiyZPqrUkmvexK8oe1ABdxrywixAy9dqmRaWg/edit?usp=sharing" target="_blank">View Project</a>
+                    <a className='link' href="/feature-story">View Project</a>
                   </div>
                 </div>
               </div>
