@@ -5,83 +5,99 @@ const PersonalEthicalStatement = () => {
     return (
         <div className="page-content">
             <Nav />
-            <div className="page-content">
-                <h2>Personal Ethical Statement</h2>
+            <div>
+                <h2 id='ethics-title'>Personal Ethical Statement</h2>
                 <h5>Introduction</h5>
                 <p>
                     When I was a child, I thought there were only two sides to an argument: the “good guys” and the “bad guys.”. Yet as I’ve gotten older, I’ve learned that there are far more nuances than such simple classifications allow. Through my religion, personal experience, and educational studies I have learned various moral philosophies that are useful when faced with an ethical dilemma.
                 </p>
                 <p>
-                    As a member of the Church of Jesus Christ of Latter-day Saints, my earliest concept of right and wrong came from songs like “Choose the Right” and sayings such as “What would Jesus do?” Although my ethical understanding has developed beyond these simple phrases, my moral foundation will forever be Jesus Christ.4 I find that when I align myself with His teachings, the resulting thoughts and actions will always be the right choice.
+                    As a member of the Church of Jesus Christ of Latter-day Saints, my earliest concept of right and wrong came from songs like “Choose the Right” and sayings such as “What would Jesus do?” Although my ethical understanding has developed beyond these simple phrases, my moral foundation will forever be Jesus Christ.<span className='refNumber'>4</span> I find that when I align myself with His teachings, the resulting thoughts and actions will always be the right choice.
                 </p>
                 <p>
                     That being said, it is helpful for me to study various ethical models and philosophies, to learn how wise men and women have applied them in the past. Such models that I resonate with are The Golden Rule, Virtue Ethics, Loyalties, and Bok’s Model.
                 </p>
                 <p>
-                    In all my dealings, I strive to do what is right; yet as a human being, I have made many mistakes and will surely experience more. As a woman of integrity, I will strive to openly acknowledge my mistakes, and make amends how I can. I will strive to follow ethical principles such as Advocacy, Loyalty, and Fairness in all that I do.2
+                    In all my dealings, I strive to do what is right; yet as a human being, I have made many mistakes and will surely experience more. As a woman of integrity, I will strive to openly acknowledge my mistakes, and make amends how I can. I will strive to follow ethical principles such as Advocacy, Loyalty, and Fairness in all that I do.<span className='refNumber'>2</span>
                 </p>
 
                 <h5>The Golden Rule</h5>
                 <p>
-                    I will seek to follow Jesus’ counsel when He said: “Therefore all things whatsoever ye would that men should do to you: do ye even so to them: for this is the law and the prophets.”3
+                    I will seek to follow Jesus’ counsel when He said: “Therefore all things whatsoever ye would that men should do to you: do ye even so to them: for this is the law and the prophets.”<span className='refNumber'>3</span>
                     I will strive to treat others with the respect, fairness, and kindness that I expect in return. I will strive to deal justly with those whom I encounter.
                 </p>
 
                 <h5>Virtue Ethics</h5>
                 <p>
-                    I will strive to maintain my virtue and integrity in all my dealings, both personal and professional. I agree with Aristotle, who originally came up with the idea of Virtue Ethics.6 He believed that the most important determinant of ethical decision making was the character of the person of action. Thus, he valued virtues such as Honesty, Loyalty, Advocacy and Fairness.
+                    I will strive to maintain my virtue and integrity in all my dealings, both personal and professional. I agree with Aristotle, who originally came up with the idea of Virtue Ethics.<span className='refNumber'>6</span> He believed that the most important determinant of ethical decision making was the character of the person of action. Thus, he valued virtues such as Honesty, Loyalty, Advocacy and Fairness.
                 </p>
-                <h6>Honesty</h6>
-                <ul>
-                    <li>
-                        I will maintain honest communication with those I represent, and “adhere to the highest standards of accuracy and truth.”2
-                    </li>
-                    <li>
-                        I will communicate honestly with the publics of interest, who are involved with those I represent.
-                    </li>
-                    <li>
-                        I will be honest with myself when I recognize potential issues in the ways my company is functioning, and work to right any wrongs.
-                    </li>
-                </ul>
-                <h6>Advocacy</h6>
-                <ul>
-                    <li>
-                        I will act “as [a] responsible advocate for those [I] represent.” 2
-                    </li>
-                    <li>
-                        I will advocate for justice and equality in my dealings both at home and in my work life.
-                    </li>
-                </ul>
-                <h6>Fairness</h6>
-                <ul>
-                    <li>
-                        I will seek to deal fairly with all parties involved, whether it be in my personal life, or my professional life.
-                    </li>
-                    <li>
-                        I will also deal fairly with my competitors, to maintain the highest standards of integrity.
-                    </li>
-                </ul>
+                <div className='center'>
+                    <div className='virtueEthicsSubItems'>
+                        <h6>Honesty</h6>
+                        <ul>
+                            <li>
+                                I will maintain honest communication with those I represent, and “adhere to the highest standards of accuracy and truth.”<span className='refNumber'>2</span>
+                            </li>
+                            <li>
+                                I will communicate honestly with the publics of interest, who are involved with those I represent.
+                            </li>
+                            <li>
+                                I will be honest with myself when I recognize potential issues in the ways my company is functioning, and work to right any wrongs.
+                            </li>
+                        </ul>
+                        <h6>Advocacy</h6>
+                        <ul>
+                            <li>
+                                I will act “as [a] responsible advocate for those [I] represent.”<span className='refNumber'>2</span>
+                            </li>
+                            <li>
+                                I will advocate for justice and equality in my dealings both at home and in my work life.
+                            </li>
+                        </ul>
+                        <h6>Fairness</h6>
+                        <ul>
+                            <li>
+                                I will seek to deal fairly with all parties involved, whether it be in my personal life, or my professional life.
+                            </li>
+                            <li>
+                                I will also deal fairly with my competitors, to maintain the highest standards of integrity.
+                            </li>
+                        </ul>
+                    </div>
+                </div>
 
                 <h5>Loyalties</h5>
                 <p>
-                    Loyalty refers to “devotion to a cause or ideal.” 7 There are different loyalties specified within this category, though I will focus on the first three.
+                    Loyalty refers to “devotion to a cause or ideal.”<span className='refNumber'>7</span> There are different loyalties specified within this category, though I will focus on the first three.
                 </p>
                 <ol>
                     <li>
-                        Duty to self and conscience7. I will align my behavior to honor my inner self, and to adhere to the dictates of my conscience.
+                        Duty to self and conscience<span className='refNumber'>7</span>. I will align my behavior to honor my inner self, and to adhere to the dictates of my conscience.
                     </li>
                     <li>
-                        Duty to shared humanity7. I will respect other people for and in their humanity and treat them with dignity.
+                        Duty to shared humanity<span className='refNumber'>7</span>. I will respect other people for and in their humanity and treat them with dignity.
                     </li>
                     <li>
-                        Duty to clients7. In my work life, I will also uphold my duty to my clients, and strive to offer them quality services.
+                        Duty to clients<span className='refNumber'>7</span>. In my work life, I will also uphold my duty to my clients, and strive to offer them quality services.
                     </li>
                 </ol>
 
                 <h5>Bok's Model</h5>
                 <p>
-                    I will use Bok’s Model for ethical decision making, when faced with ethical decisions.  I will follow Bok’s given steps which are: 1. Consult your own conscience 2. Consult experts. (Is there an alternative yet to be considered?) 3. Conduct a discussion with all parties involved.1
+                    I will use Bok’s Model for ethical decision making, when faced with ethical decisions.  I will follow Bok’s given steps which are:
                 </p>
+                <ol>
+                    <li>
+                        Consult your own conscience
+                    </li>
+                    <li>
+                        Consult experts (Is there an alternative yet to be considered?)
+                    </li>
+                    <li>
+                        Conduct a discussion with all parties involved<span className='refNumber'>1</span>
+                    </li>
+                </ol>
+
                 <p>
                     When practicing Bok’s model, step two causes my brain to move past perceived barriers and consider new alternatives it hadn’t fathomed before.
                 </p>
@@ -111,7 +127,7 @@ const PersonalEthicalStatement = () => {
                 </p>
 
                 <h5>Works Cited</h5>
-                <ol>
+                <ol className='worksCitedItems'>
                     <li>
                         Bok, Sissela. Lying: Moral Choice in Public and Private Life. Vintage. August 1999.
                     </li>

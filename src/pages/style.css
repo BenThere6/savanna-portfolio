@@ -113,6 +113,28 @@ h4 {
     margin-bottom: 10px;
 }
 
+h5 {
+    font-size: 30px;
+    margin-bottom: 0;
+}
+
+h6 {
+    font-size: 20px;
+    margin: 0;
+}
+
+.worksCitedItems {
+    font-size: small;
+}
+
+.virtueEthicsSubItems {
+    width: 90%;
+}
+
+#ethics-title {
+    margin-top: 100px;
+}
+
 p {
     text-indent: 40px;
     max-width: 800px;
