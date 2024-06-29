@@ -18,7 +18,7 @@ const Projects = () => {
     <div className="page">
       <div className="page-content">
         <div>
-          <h2 className='white-fade-background'>My Projects</h2>
+          <h2 className='white-fade-background'>PR Projects</h2>
         </div>
         <Nav />
         
