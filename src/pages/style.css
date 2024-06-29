@@ -188,6 +188,8 @@ a {
     border-radius: 20px;
     padding-top: 3px;
     display: inline-block;
+    margin-left: 5px;
+    margin-right: 5px;
 }
 
 .link:hover {
