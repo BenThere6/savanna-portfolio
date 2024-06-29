@@ -40,7 +40,7 @@ const About = () => {
         <div className='p-container gray-text-container'>
           <p>Growing up, I learned about ethics through my religion, personal experiences, and education. Central to my ethical compass is the principle of treating others with respect, fairness, and kindness, following the golden rule of doing unto others as you would have them do unto you. I believe in maintaining integrity and virtues like honesty, advocacy, and fairness in all aspects of life. Loyalty to oneself, humanity, and clients guides my actions, while ethical decision-making involves consulting my conscience, seeking expertise, and engaging in dialogue with others. Ultimately, I aim to live a life of integrity, continually striving to make ethical decisions rooted in principle and moral conviction.</p>
           <div className='center'>
-            <a className='link statement-link' href="/ethical-statement">View Full Statement</a>
+            <a className='link statement-link' href="/ethical-statement" target='blank'>View Full Statement</a>
           </div>
         </div>
 

@@ -95,7 +95,7 @@ const Projects = () => {
                 </div>
                 <div className='center'>
                   <div className='gray-container project-links'>
-                    <a className='link' href="/the-perfect-lie">View Project</a>
+                    <a className='link' href="/the-perfect-lie" target='blank'>View Project</a>
                   </div>
                 </div>
               </div>
@@ -110,7 +110,7 @@ const Projects = () => {
                 </div>
                 <div className='center'>
                   <div className='gray-container project-links'>
-                    <a className='link' href="/feature-story">View Project</a>
+                    <a className='link' href="/feature-story" target='blank'>View Project</a>
                   </div>
                 </div>
               </div>
@@ -125,7 +125,7 @@ const Projects = () => {
                 </div>
                 <div className='center'>
                   <div className='gray-container project-links'>
-                    <a className='link' href="/news-release">View Project</a>
+                    <a className='link' href="/news-release" target='blank'>View Project</a>
                   </div>
                 </div>
               </div>
