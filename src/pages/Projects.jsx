@@ -6,6 +6,10 @@ import semrush_image from '../assets/SEMrush-image.png';
 import oped_image from '../assets/oped-image.png';
 import feature_story_image from '../assets/feature-story-image.png';
 import news_release_image from '../assets/hrabowski-image.jpeg';
+import "react-responsive-carousel/lib/styles/carousel.min.css";
+import Semrush from '../components/SemrushSlideshow';
+import Muckrack from '../components/MuckrackSlideshow';
+import Meltwater from '../components/MeltwaterSlideshow';
 
 const Projects = () => {
   const [selectedCategory, setSelectedCategory] = useState('research');
@@ -25,54 +29,57 @@ const Projects = () => {
         <div className='center'>
           <div className='category-buttons gray-text-container'>
             <button onClick={() => handleCategoryChange('research')} className={`category-button cat-but-1 ${selectedCategory === 'research' ? 'selected' : ''}`}>Research and Evaluation</button>
-            <button onClick={() => handleCategoryChange('writing')} className={`category-button ${selectedCategory === 'writing' ? 'selected' : ''}`}>Writing Tactics</button>
+            <button onClick={() => handleCategoryChange('writing')} className={`category-button cat-but-2 ${selectedCategory === 'writing' ? 'selected' : ''}`}>Writing Tactics</button>
           </div>
         </div>
 
         <div className='projects-container'>
           {selectedCategory === 'research' && (
             <div>
-              <div className="project">
+              <div className="project" id='proj-one'>
                 <h3 className='project-name'>SEMrush Project</h3>
-                <div className='center project-image-wrapper'>
+                {/* <div className='center project-image-wrapper'>
                   <img className='project-image' src={semrush_image} alt='project-image'></img>
-                </div>
+                </div> */}
+                <Semrush />
                 <div className='gray-text-container proj-paragraph'>
                   <p>Through this project, I used SEMrush to analyze Our Family Wizard's backlinks and keywords. I compared those with the most effective keywords related to Our Family Wizard's work, and offered suggestions to help Our Family Wizard's Search Engine Optimization. This would increase the public awareness of the company, and help the publics understand the resource OFW offers.</p>
                 </div>
-                <div className='center'>
+                {/* <div className='center'>
                   <div className='gray-container project-links'>
                     <a className='link' href="https://docs.google.com/presentation/d/1KBGOkQSZ_0jaO96GKVCwiSI7239XXATJ/edit?usp=sharing&ouid=103382045392221082977&rtpof=true&sd=true" target="_blank">View Project</a>
                   </div>
-                </div>
+                </div> */}
               </div>
-              <div className="project">
+              <div className="project" id='proj-two'>
                 <h3 className='project-name'>Melt Water Project</h3>
-                <div className='center project-image-wrapper'>
+                {/* <div className='center project-image-wrapper'>
                   <img className='project-image' src={meltwater_image} alt='project-image'></img>
-                </div>
+                </div> */}
+                <Meltwater />
                 <div className='gray-text-container proj-paragraph'>
                   <p>In this project, I acted in the Role of Our Family Wizard, a company that facilitates co-parenting communication among separated parents. Through my research, I learned what time of year OFW receives the most coverage. I learned that its overall sentiment is neutral, and I learned which major outlets cover it most. As a PR representative, I can use this information to help the company strategically plan ways to communicate with their publics in order to reach KPI's.</p>
                 </div>
-                <div className='center'>
+                {/* <div className='center'>
                   <div className='gray-container project-links'>
                     <a className='link' href="https://docs.google.com/presentation/d/1uypgfdEVJqPz6j_hlMnSaW18Tubva82V/edit?usp=sharing&ouid=103382045392221082977&rtpof=true&sd=true" target="_blank">View Project</a>
                   </div>
-                </div>
+                </div> */}
               </div>
-              <div className="project" id='proj-one'>
+              <div className="project" id='proj-three'>
                 <h3 className='project-name'>Muck Rack Project</h3>
-                <div className='center project-image-wrapper'>
+                {/* <div className='center project-image-wrapper'>
                   <img className='project-image' src={muckrack_image} alt='project-image'></img>
-                </div>
+                </div> */}
+                <Muckrack />
                 <div className='gray-text-container proj-paragraph'>
                   <p>In this project, I analyzed MuckRack data on mindfulness and meditation to determine 5 reporters I would reach out to if I worked for a company centered on meditation. I then created an event the company would sponsor, in order to meet the reporters, and give them an opportunity to learn about our company for future opportunities.</p>
                 </div>
-                <div className='center'>
+                {/* <div className='center'>
                   <div className='gray-container project-links'>
                     <a className='link' href="https://docs.google.com/presentation/d/1_OfPVtXQkIWpz5Z645flbXtlel1qA4Em/edit?usp=sharing&ouid=103382045392221082977&rtpof=true&sd=true" target="_blank">View Project</a>
                   </div>
-                </div>
+                </div> */}
               </div>
             </div>
           )}

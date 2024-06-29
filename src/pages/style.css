@@ -394,7 +394,7 @@ form {
     padding-top: 5px;
     color: var(--paragraph);
     cursor: pointer; /* Add cursor pointer to indicate interactivity */
-    border-radius: 20px;
+    /* border-radius: 0 20px 20px 0; */
     transition: all .2s ease-in-out;
 }
 
@@ -403,9 +403,13 @@ form {
     background-color: rgba(133, 159, 168, .3); /* Change background color on hover */
 }
 
-/* .cat-but-1 {
-    margin-right: 20px;
-} */
+.cat-but-1 {
+    border-radius: 20px 0 0 20px;
+}
+
+.cat-but-2 {
+    border-radius: 0 20px 20px 0;
+}
 
 /* Style for selected category button */
 .category-button.selected {
@@ -546,6 +550,14 @@ footer {
 #python-icon {
     padding-bottom: 1px;
     padding-right: 7px;
+}
+
+#proj-one, #proj-two {
+    margin-bottom:80px;
+}
+
+#proj-one {
+    margin-top: 60px;
 }
 
 @media (max-width:1023px) {
